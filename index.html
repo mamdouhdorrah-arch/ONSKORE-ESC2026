@@ -1,0 +1,1430 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<title>Onskore Summary on ESC Guidelines 2026</title>
+<meta name="description" content="Onskore Academy study summary of the 2026 ESC guidelines on heart failure, on cardiovascular disease with chronic kidney disease, and of the Fifth Universal Definition of Myocardial Infarction.">
+<style>
+:root{
+  --navy:#0D3895; --blue:#106FE7; --sky:#37B2F5; --gold:#FFC730;
+  --navy-deep:#08246B; --sky-soft:#E4F2FE; --blue-soft:#E8F0FE; --gold-soft:#FFF4D6;
+  --ink:#0C1830; --muted:#4C5A75; --line:#D3DEF2; --paper:#F6F9FF; --panel:#E9F0FD;
+  --stop:#E0342A; --stop-soft:#FDEBE9;
+  --serif: "Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --sans: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%}
+a{color:var(--blue)}
+.wrap{display:grid;grid-template-columns:260px minmax(0,1fr);gap:0;max-width:1240px;margin:0 auto}
+
+/* ---------- masthead ---------- */
+.mast{grid-column:1/-1;color:#fff;padding:44px 32px 36px;
+  background:linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 42%, var(--blue) 100%);
+  background-image:radial-gradient(circle at 84% 10%, rgba(55,178,245,.55), transparent 52%),
+                   radial-gradient(circle at 12% 96%, rgba(255,199,48,.18), transparent 45%),
+                   linear-gradient(120deg, var(--navy-deep) 0%, var(--navy) 42%, var(--blue) 100%);}
+.mast{display:grid;grid-template-columns:auto minmax(0,1fr);gap:30px;align-items:start}
+.mast .brand{background:#fff;border-radius:16px;padding:16px 18px;width:152px;
+  box-shadow:0 20px 34px -20px rgba(4,20,60,.85), 0 0 0 4px rgba(255,255,255,.12)}
+.mast .brand img{display:block;width:100%;height:auto}
+.mast .head{min-width:0}
+.mast .kicker{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:1.05rem;margin:0 0 6px}
+.mast h1{font-family:var(--serif);font-weight:600;font-size:clamp(1.9rem,4.4vw,3.1rem);line-height:1.08;margin:0;max-width:22ch;letter-spacing:-.01em}
+.mast h1 span{display:block}
+.mast h1 .on{font-family:var(--sans);font-weight:400;font-size:.3em;letter-spacing:.16em;color:var(--gold);margin:.35em 0 .3em}
+.mast p.sub{margin:16px 0 0;max-width:64ch;color:#DCE8FF;font-size:1rem}
+.mast .meta{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+.mast .meta span{border:1px solid rgba(255,255,255,.4);background:rgba(255,255,255,.1);border-radius:999px;padding:4px 12px;font-size:.82rem;color:#F1F6FF}
+
+/* ---------- headline changes ---------- */
+.changes{grid-column:1/-1;background:#fff;border-bottom:1px solid var(--line);padding:26px 32px}
+.changes h2{font-family:var(--serif);font-size:1.15rem;margin:0 0 14px;color:var(--navy);font-weight:600}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.chg{border-left:3px solid var(--sky);padding:2px 0 2px 14px}
+.chg b{display:block;font-size:.95rem;color:var(--navy)}
+.chg span{font-size:.9rem;color:var(--muted)}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto;padding:24px 16px 40px;border-right:1px solid var(--line);background:var(--paper)}
+nav .menu-toggle{display:none}
+nav .group{margin:0 0 18px}
+nav .group > p{margin:0 0 6px;padding:0 8px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);font-weight:700}
+nav ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--line)}
+nav li{margin:0}
+nav a{display:grid;grid-template-columns:30px 1fr;gap:6px;align-items:baseline;padding:7px 8px;margin-left:-1px;
+  border-left:2px solid transparent;text-decoration:none;color:var(--ink);font-size:.9rem;line-height:1.35}
+nav a .n{font-variant-numeric:tabular-nums;font-size:.76rem;color:var(--muted)}
+nav a:hover{background:var(--sky-soft)}
+nav a.on{border-left-color:var(--gold);background:linear-gradient(90deg,var(--navy),var(--blue));color:#fff;font-weight:600;border-radius:0 6px 6px 0}
+nav a.on .n{color:var(--gold)}
+nav .totop{display:inline-block;margin-top:6px;padding:6px 10px;font-size:.82rem;color:var(--muted);text-decoration:none;border:1px solid var(--line);border-radius:999px;background:#fff}
+nav .totop:hover{color:var(--navy);border-color:var(--navy)}
+
+main{padding:32px 32px 80px;min-width:0}
+.part{scroll-margin-top:76px;margin:0 0 34px;padding:22px 24px;border-radius:14px;color:#fff;
+  background:linear-gradient(115deg, var(--navy-deep), var(--navy) 55%, var(--blue));
+  box-shadow:0 20px 36px -26px rgba(8,36,107,.9)}
+#part-hf{background-image:radial-gradient(circle at 92% 18%, rgba(55,178,245,.55), transparent 58%),
+  linear-gradient(115deg, var(--navy-deep), var(--navy) 55%, var(--blue))}
+#part-ckd{background-image:radial-gradient(circle at 92% 18%, rgba(255,199,48,.4), transparent 58%),
+  linear-gradient(115deg, var(--navy-deep), #0F4AAE 55%, var(--blue))}
+#part-mi{background-image:radial-gradient(circle at 8% 88%, rgba(55,178,245,.45), transparent 55%),
+  radial-gradient(circle at 94% 14%, rgba(255,255,255,.16), transparent 50%),
+  linear-gradient(115deg, var(--navy-deep), var(--navy) 50%, #0E63C9)}
+.part:not(:first-of-type){margin-top:20px}
+.part p.eyebrow{margin:0 0 6px;font-family:var(--serif);font-style:italic;color:var(--gold);font-size:.95rem}
+.part h2{font-family:var(--serif);font-weight:600;font-size:1.6rem;margin:0;line-height:1.15}
+.part p.src{margin:10px 0 0;color:#CFE0FF;font-size:.88rem}
+.part .hl{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-top:16px}
+.part .hl div{border-left:3px solid var(--gold);padding-left:12px}
+.part .hl b{display:block;font-size:.92rem}
+.part .hl span{font-size:.86rem;color:#CADCFA}
+nav .part-label{margin:22px 0 10px;padding:0 8px 8px;border-bottom:2px solid var(--gold);
+  font-family:var(--serif);font-size:1.05rem;color:var(--navy);font-weight:600}
+nav .part-label:first-child{margin-top:0}
+section{scroll-margin-top:76px;margin-bottom:52px}
+h2.sec{font-family:var(--serif);font-size:1.75rem;font-weight:600;color:var(--navy);margin:0 0 6px;line-height:1.2}
+h2.sec em{font-style:normal;color:var(--blue);font-size:.95rem;font-weight:600;font-family:var(--sans);display:block;margin-bottom:4px}
+p.lead{color:var(--muted);max-width:70ch;margin:0 0 22px}
+h3.grp{font-size:1rem;font-weight:700;color:var(--navy);margin:26px 0 10px;padding:0 0 6px 12px;
+  border-bottom:1px solid var(--line);border-left:4px solid var(--sky);line-height:1.3}
+h4.sub{font-size:.95rem;font-weight:700;margin:22px 0 8px;color:var(--blue)}
+
+/* ---------- recommendation rows ---------- */
+ul.recs{list-style:none;margin:0;padding:0}
+li.rec{display:grid;grid-template-columns:74px 1fr;gap:14px;padding:11px 0;border-bottom:1px solid var(--line);align-items:start}
+li.rec p{margin:0;max-width:72ch}
+.tags{display:flex;gap:5px;padding-top:2px}
+.cls,.lvl{font-size:.72rem;font-weight:700;border-radius:4px;padding:2px 6px;line-height:1.5;white-space:nowrap}
+.cls{color:#fff}
+.c-I{background:var(--navy)} .c-IIa{background:var(--blue)} .c-IIb{background:var(--sky);color:#04305A} .c-III{background:var(--stop)}
+li.rec:hover{background:rgba(55,178,245,.07)}
+.lvl{background:var(--blue-soft);color:var(--navy);border:1px solid #BFD5F7}
+li.rec.hide{display:none}
+
+/* ---------- filter bar ---------- */
+.filters{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:2px solid var(--line);
+  padding:12px 0 12px;margin:0 0 26px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filters button{font:inherit;font-size:.85rem;border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 13px;cursor:pointer;color:var(--navy)}
+.filters button:hover{border-color:var(--blue);background:var(--sky-soft)}
+.filters button[aria-pressed="true"]{background:linear-gradient(90deg,var(--navy),var(--blue));border-color:var(--navy);color:#fff}
+.filters input{font:inherit;font-size:.9rem;flex:1;min-width:180px;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:#fff}
+.filters .count{font-size:.82rem;color:var(--muted)}
+
+/* ---------- tables & panels ---------- */
+table{border-collapse:collapse;width:100%;font-size:.92rem;margin:10px 0 6px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:linear-gradient(180deg,var(--panel),#DEE9FC);color:var(--navy);font-size:.82rem;font-weight:700;
+  border-bottom:2px solid #BFD5F7}
+tbody tr:nth-child(even) td,table tr:nth-child(even) td{background:rgba(233,240,253,.45)}
+table tr:hover td{background:var(--sky-soft)}
+td.n{white-space:nowrap;color:var(--muted)}
+.panel{background:#fff;border:1px solid var(--line);border-top:3px solid var(--sky);border-radius:10px;padding:16px 20px 18px;margin:14px 0;
+  box-shadow:0 10px 24px -22px rgba(8,36,107,.7)}
+.panel h4{margin:0 0 8px;font-size:.98rem;color:var(--navy);font-weight:700}
+.panel ul{margin:0;padding-left:20px}
+.panel li{margin:3px 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.criteria{background:#fff;border:1px solid var(--line);border-left:6px solid var(--gold);border-radius:10px;padding:16px 20px;margin:14px 0;
+  box-shadow:0 12px 26px -24px rgba(8,36,107,.8)}
+.criteria h4{margin:0 0 10px;font-size:1rem;color:var(--navy)}
+.criteria ul{margin:6px 0;padding-left:20px}
+.criteria li{margin:4px 0}
+.criteria p{margin:0 0 8px;max-width:74ch}
+.note{border-left:4px solid var(--gold);background:var(--gold-soft);border-radius:0 8px 8px 0;
+  padding:12px 16px;color:#5A4A18;font-size:.93rem;margin:16px 0}
+details{border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:8px;padding:10px 14px;background:#fff;margin:10px 0}
+summary{cursor:pointer;font-weight:600;font-size:.95rem;color:var(--navy)}
+footer{grid-column:2/-1;border-top:1px solid var(--line);padding:28px 32px 60px;color:var(--muted);font-size:.86rem;
+  display:grid;grid-template-columns:130px minmax(0,1fr);gap:26px;align-items:start}
+footer img{width:130px;height:auto;display:block}
+footer .fnote{min-width:0}
+footer p{margin:0 0 10px}
+footer b{color:var(--navy)}
+.brandline{height:6px;background:linear-gradient(90deg,var(--navy),var(--blue) 40%,var(--sky) 70%,var(--gold));grid-column:1/-1}
+
+@media (max-width:900px){
+  .wrap{grid-template-columns:1fr}
+  nav{position:sticky;top:0;z-index:8;max-height:none;overflow:visible;border-right:0;border-bottom:1px solid var(--line);padding:0;background:#fff}
+  nav .menu-toggle{display:block;width:100%;font:inherit;font-size:.92rem;font-weight:600;color:var(--navy);
+    background:#fff;border:0;border-bottom:1px solid var(--line);padding:12px 16px;text-align:left;cursor:pointer}
+  nav .menu-toggle::after{content:"▾";float:right;color:var(--muted)}
+  nav[data-open="true"] .menu-toggle::after{content:"▴"}
+  nav .panelwrap{display:none;padding:14px 16px 20px;max-height:76vh;overflow:auto;background:#fff;box-shadow:0 12px 20px -12px rgba(13,56,149,.35)}
+  nav[data-open="true"] .panelwrap{display:block}
+  nav .totop{display:none}
+  main{padding:22px 16px 60px} .mast{padding:26px 18px 30px;grid-template-columns:1fr;gap:18px}
+  .mast .brand{width:132px} .changes{padding:20px 18px}
+  footer{grid-column:1/-1;grid-template-columns:1fr;gap:16px;padding:24px 18px 50px} footer img{width:112px}
+  .filters{top:45px} section,.part{scroll-margin-top:190px}
+  li.rec{grid-template-columns:1fr;gap:6px}
+}
+@media print{
+  nav,.filters{display:none} .wrap{display:block} .mast{background:var(--navy);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  li.rec{break-inside:avoid} section{break-inside:auto}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="brandline"></div>
+<div class="wrap">
+
+<header class="mast" id="top">
+  <div class="brand">
+    <img src="data:image/png;base64,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" alt="Onskore Academy">
+  </div>
+  <div class="head">
+    <h1><span>Onskore Summary</span><span class="on">on</span><span>ESC Guidelines 2026</span></h1>
+    <p class="sub">Heart failure, cardiovascular disease with chronic kidney disease, and the Fifth Universal Definition of Myocardial Infarction — condensed for revision. Every recommendation is shortened to its clinical core with class and level kept intact, and every diagnostic criterion is kept whole.</p>
+    <div class="meta"><span>Heart failure — ehag100</span><span>CVD and CKD with the ERA — ehag098</span><span>Definition of MI — ehag101</span><span>European Heart Journal 2026</span></div>
+  </div>
+</header>
+
+<nav aria-label="Sections" id="nav" data-open="false">
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navlist">Jump to a section</button>
+  <div class="panelwrap" id="navlist">
+    <p class="part-label">Part 1 · Heart failure</p>
+<div class="group">
+<p>Foundations</p>
+<ol>
+<li><a href="#definitions"><span class="n">3</span><span>Definitions and classification</span></a></li>
+<li><a href="#prevention"><span class="n">4</span><span>Prevention</span></a></li>
+<li><a href="#diagnosis"><span class="n">5</span><span>Diagnosis</span></a></li>
+</ol></div>
+<div class="group">
+<p>Chronic heart failure</p>
+<ol>
+<li><a href="#pharmacotherapy"><span class="n">6.1</span><span>Drug therapy</span></a></li>
+<li><a href="#devices"><span class="n">6.2</span><span>Devices and interventions</span></a></li>
+</ol></div>
+<div class="group">
+<p>Acute and advanced</p>
+<ol>
+<li><a href="#dhf"><span class="n">7</span><span>Decompensated HF</span></a></li>
+<li><a href="#advanced"><span class="n">8</span><span>Advanced HF</span></a></li>
+</ol></div>
+<div class="group">
+<p>Comorbidities and care</p>
+<ol>
+<li><a href="#cv-comorbid"><span class="n">9</span><span>Cardiovascular comorbidities</span></a></li>
+<li><a href="#noncv-comorbid"><span class="n">10</span><span>Non-cardiovascular comorbidities</span></a></li>
+<li><a href="#team"><span class="n">11</span><span>Team, rehab and follow-up</span></a></li>
+<li><a href="#specific"><span class="n">12</span><span>Specific conditions</span></a></li>
+</ol></div>
+<div class="group">
+<p>Reference</p>
+<ol>
+<li><a href="#key-messages"><span class="n">13</span><span>Key messages</span></a></li>
+</ol></div>
+<p class="part-label">Part 2 · CVD and CKD</p>
+<div class="group">
+<p>Kidney fundamentals</p>
+<ol>
+<li><a href="#ckd-basics"><span class="n">3</span><span>Defining and screening CKD</span></a></li>
+<li><a href="#ckd-risk"><span class="n">4</span><span>Cardiovascular risk in CKD</span></a></li>
+</ol></div>
+<div class="group">
+<p>Risk reduction</p>
+<ol>
+<li><a href="#ckd-riskreduction"><span class="n">5</span><span>Kidney and CV risk reduction</span></a></li>
+</ol></div>
+<div class="group">
+<p>Organ by organ</p>
+<ol>
+<li><a href="#ckd-hf"><span class="n">6</span><span>Heart failure with CKD</span></a></li>
+<li><a href="#ckd-ascvd"><span class="n">7</span><span>Coronary, PAD and stroke</span></a></li>
+<li><a href="#ckd-thrombo"><span class="n">8–9</span><span>VTE, AF and sudden death</span></a></li>
+<li><a href="#ckd-valve"><span class="n">10–11</span><span>Valves and contrast safety</span></a></li>
+<li><a href="#ckd-krt"><span class="n">12–14</span><span>Dialysis, transplant, care</span></a></li>
+</ol></div>
+<div class="group">
+<p>Reference</p>
+<ol>
+<li><a href="#ckd-key-messages"><span class="n">16</span><span>Key messages — STAMP</span></a></li>
+</ol></div>
+<p class="part-label">Part 3 · Definition of MI</p>
+<div class="group">
+<p>Framework</p>
+<ol>
+<li><a href="#mi-whats-new"><span class="n">4</span><span>What changed</span></a></li>
+<li><a href="#mi-injury"><span class="n">6</span><span>Myocardial injury</span></a></li>
+</ol></div>
+<div class="group">
+<p>The three settings</p>
+<ol>
+<li><a href="#mi-primary"><span class="n">7.2.1</span><span>Primary infarction</span></a></li>
+<li><a href="#mi-secondary"><span class="n">7.2.2</span><span>Secondary infarction</span></a></li>
+<li><a href="#mi-procedure"><span class="n">7.2.3</span><span>Procedure-related</span></a></li>
+<li><a href="#mi-other"><span class="n">8–11</span><span>Sudden death, silent MI, MINOCA</span></a></li>
+</ol></div>
+<div class="group">
+<p>Diagnostic tools</p>
+<ol>
+<li><a href="#mi-ecg"><span class="n">13</span><span>Electrocardiogram</span></a></li>
+<li><a href="#mi-troponin"><span class="n">14</span><span>Cardiac troponin</span></a></li>
+<li><a href="#mi-imaging"><span class="n">15</span><span>Coronary and cardiac imaging</span></a></li>
+</ol></div>
+<div class="group">
+<p>Applying it</p>
+<ol>
+<li><a href="#mi-special"><span class="n">16</span><span>Hard diagnostic settings</span></a></li>
+<li><a href="#mi-coding"><span class="n">18–19</span><span>Coding and low-resource care</span></a></li>
+</ol></div>
+<p class="part-label">All three</p>
+<div class="group">
+<ol>
+<li><a href="#abbreviations"><span class="n">—</span><span>Abbreviations</span></a></li>
+</ol></div>
+<a class="totop" href="#top">Back to top</a>
+  </div>
+</nav>
+
+<main>
+  <div class="filters" role="region" aria-label="Filter recommendations">
+    <button type="button" data-f="all" aria-pressed="true">All classes</button>
+    <button type="button" data-f="I" aria-pressed="false">Class I</button>
+    <button type="button" data-f="IIa" aria-pressed="false">Class IIa</button>
+    <button type="button" data-f="IIb" aria-pressed="false">Class IIb</button>
+    <button type="button" data-f="III" aria-pressed="false">Class III</button>
+    <input type="search" id="q" placeholder="Search graded recommendations — try SGLT2, amyloidosis, CRT" aria-label="Search recommendations">
+    <span class="count" id="count"></span>
+  </div>
+  
+<div class="part" id="part-hf" data-spy="definitions">
+  <p class="eyebrow">Part 1</p>
+  <h2>Heart failure</h2>
+  <p class="src">2026 ESC Guidelines for the management of heart failure · European Heart Journal 2026 · doi:10.1093/eurheartj/ehag100</p>
+  <div class="hl">
+    <div><b>HFrEF now means LVEF &lt; 50%</b><span>The threshold moved up from 40%.</span></div>
+    <div><b>HFmrEF is gone</b><span>The 41–49% group folds into HFrEF.</span></div>
+    <div><b>Decompensated HF replaces acute HF</b><span>New name, new definition, new pathway.</span></div>
+    <div><b>Stages A–D adopted</b><span>Plus new names for therapy: FMT, AMT, GDIT.</span></div>
+  </div>
+</div>
+
+
+<section id="definitions">
+<h2 class="sec"><em>Section 3</em>Definitions and classification</h2>
+<p class="lead">Heart failure is a clinical syndrome of symptoms and/or signs caused by structural or functional cardiac abnormality, producing raised intracardiac pressures or inadequate cardiac output at rest or on exertion, confirmed by objective evidence of congestion or supportive testing.</p>
+
+<h3 class="grp">Phenotypes by ejection fraction</h3>
+<table>
+<tr><th>Phenotype</th><th>2026 definition</th><th>Was (2021)</th></tr>
+<tr><td class="n">HFrEF</td><td>LVEF &lt; 50% with symptoms and/or signs of HF</td><td>LVEF ≤ 40%</td></tr>
+<tr><td class="n">HFmrEF</td><td>Removed — these patients now sit inside HFrEF</td><td>LVEF 41–49%</td></tr>
+<tr><td class="n">HFpEF</td><td>LVEF ≥ 50% with symptoms and/or signs, plus objective evidence of diastolic dysfunction or raised filling pressures, supported by raised natriuretic peptides</td><td>LVEF ≥ 50%</td></tr>
+<tr><td class="n">Improved LVEF</td><td>An absolute rise of at least 10 points to a value above 40%</td><td>—</td></tr>
+</table>
+<p style="color:var(--muted);font-size:.92rem;max-width:70ch">The rationale is pathophysiological: patients in the old mid-range behave like HFrEF in aetiology, contractility, outcomes and treatment response, and many of them deteriorate further. Remember that any single LVEF cut-point is partly arbitrary and can read falsely high — in mitral regurgitation, for example.</p>
+
+<h3 class="grp">Stages, from risk to advanced disease</h3>
+<div class="two">
+<div class="panel"><h4>Stage A — at risk</h4><p style="margin:0;font-size:.93rem">Risk factors without structural disease or symptoms. Not everyone progresses, but intervention is often warranted.</p></div>
+<div class="panel"><h4>Stage B — pre-HF</h4><p style="margin:0;font-size:.93rem">Structural or functional abnormality — hypertrophy, chamber enlargement, wall motion or tissue abnormality, valve disease, raised filling pressures — without symptoms.</p></div>
+<div class="panel"><h4>Stage C — symptomatic HF</h4><p style="margin:0;font-size:.93rem">Current or previous symptoms and/or signs. This is where the phenotypes apply.</p></div>
+<div class="panel"><h4>Stage D — advanced HF</h4><p style="margin:0;font-size:.93rem">Severe symptoms and dysfunction despite full therapy, with recurrent decompensation. See Section 8.</p></div>
+</div>
+
+<h3 class="grp">A new vocabulary for treatment</h3>
+<table>
+<tr><th>Term</th><th>Definition</th><th>Contents</th></tr>
+<tr><td class="n">FMT<br>foundational medical therapy</td><td>Class I drugs for the general HF population with convincing morbidity and/or mortality benefit</td><td>HFrEF: beta-blocker, ACE-I/ARNI/ARB, MRA, SGLT2-I. HFpEF: MRA and SGLT2-I.</td></tr>
+<tr><td class="n">AMT<br>additional medical therapy</td><td>Everything else with a recommendation: Class IIa/IIb, or Class I acting only on symptoms or quality of life, or Class I in a specific subset</td><td>Ivabradine, vericiguat, cardiac glycosides, hydralazine/ISDN, GLP-1 RAs, loop diuretics, potassium binders</td></tr>
+<tr><td class="n">GDMT</td><td>The two together — foundational plus additional</td><td>—</td></tr>
+<tr><td class="n">GDIT<br>guideline-directed interventional therapy</td><td>Every implantable device and interventional therapy carrying a recommendation</td><td>ICD, CRT, conduction system pacing, TEER, valve intervention, MCS</td></tr>
+</table>
+<p style="color:var(--muted);font-size:.92rem;max-width:70ch">"Optimal FMT" means foundational therapy at the highest tolerated dose against the guideline target. Decompensated HF (DHF) replaces the term acute HF throughout the document.</p>
+</section>
+
+<section id="prevention">
+<h2 class="sec"><em>Section 4</em>Prevention of heart failure</h2>
+<p class="lead">Stage A is about risk factors; stage B is structural or functional heart disease before symptoms. Both are treatable targets.</p>
+<h3 class="grp">Stage A — patients at risk</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Blood pressure control to a systolic target below 130 mmHg in hypertension or stage B HF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor in type 2 diabetes at risk of HF (multiple ASCVD risk factors or established ASCVD)</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor in type 2 diabetes with chronic kidney disease</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Finerenone in type 2 diabetes with chronic kidney disease</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Lifestyle counselling for every stage A or B patient — weight, balanced diet, activity, no smoking, no heavy alcohol, no cocaine / amphetamines / anabolic steroids</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">A</span></span><p>Statin in people at high risk of, or with established, ASCVD</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">A</span></span><p>GLP-1 receptor agonist in type 2 diabetes plus at least one other CV risk factor</p></li>
+</ul>
+<h3 class="grp">Stage B — structural disease, no symptoms</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>ACE inhibitor (or ARB if ACE-I not tolerated) when LVEF ≤ 40%</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Beta-blocker when LVEF &lt; 50%</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Eplerenone after myocardial infarction with LVEF ≤ 40% plus signs of HF or diabetes</p></li>
+</ul>
+</section>
+<section id="diagnosis">
+<h2 class="sec"><em>Section 5</em>Diagnosis of chronic heart failure</h2>
+<p class="lead">Natriuretic peptides plus echocardiography carry the diagnosis. Everything else answers the next question: which phenotype, and which aetiology.</p>
+<h3 class="grp">First-line work-up in suspected HF</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Screening bloods: full blood count, eGFR and urine albumin-to-creatinine ratio, electrolytes, liver and thyroid function, HbA1c, lipids, iron status (TSAT and ferritin)</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Natriuretic peptide measurement, interpreted against age, obesity and other modifiers</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>12-lead ECG</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Chest radiograph</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Transthoracic echocardiogram to confirm the diagnosis, separate phenotypes and point to aetiology</p></li>
+</ul>
+<h3 class="grp">Looking for a reversible or treatable cause</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Contrast-enhanced CMR when cardiomyopathy is suspected or the aetiology is uncertain and characterization would change care</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>Serum and urine immunofixation, serum free light chains and bone scintigraphy (DPD/PYP/HMDP) when cardiac amyloidosis is suspected</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Genetic testing when cardiomyopathy criteria are met and it changes diagnosis, prognosis, therapy, reproductive planning, or allows cascade screening of relatives</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Invasive coronary angiography in HF with angina and high probability of obstructive CAD who could be revascularized</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>18F-FDG-PET when cardiac sarcoidosis is suspected</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Endomyocardial biopsy in rapidly progressive HF despite therapy, or when inflammation, infiltration or storage is suspected and cannot be shown otherwise</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Right heart catheterization when constrictive pericarditis or congenital disease is the suspected cause</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Right heart catheterization in selected suspected HFpEF or structural disease when non-invasive testing leaves the haemodynamics unclear</p></li>
+</ul>
+<h3 class="grp">In established HFrEF</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Invasive coronary angiography when pre-test likelihood of obstructive CAD is high, weighing procedural risk against a realistic revascularization plan</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>CT coronary angiography when pre-test likelihood is low to moderate</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Review the proportion of RV pacing in every patient with a device and new or worsening HFrEF</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Electrical cardioversion as a diagnostic step in persistent AF when the value of sinus rhythm on symptoms or LV function is uncertain</p></li>
+</ul>
+
+<h4 class="sub">Natriuretic peptide thresholds</h4>
+<div class="two">
+<div class="panel"><h4>Outpatient — HF likely above</h4>
+<table><tr><th>Age</th><th>NT-proBNP</th></tr>
+<tr><td class="n">Under 50 years</td><td>≥ 125 pg/mL</td></tr>
+<tr><td class="n">50–75 years</td><td>≥ 250 pg/mL</td></tr>
+<tr><td class="n">Over 75 years</td><td>≥ 500 pg/mL</td></tr></table>
+<p style="font-size:.88rem;color:var(--muted);margin:8px 0 0">Age-adjusted thresholds replace the single 125 pg/mL rule-out; over 75% of healthy people above 80 exceed the old cut-off. There is not yet enough data for age-specific BNP cut-offs.</p></div>
+<div class="panel"><h4>Decompensated HF — rule out below</h4>
+<ul><li>NT-proBNP &lt; 300 pg/mL</li><li>BNP &lt; 100 ng/mL</li><li>MR-proANP &lt; 120 pg/mL</li></ul>
+<p style="font-size:.88rem;color:var(--muted);margin:8px 0 0">Age-related rule-in values: NT-proBNP &gt; 450 pg/mL under 50 years, &gt; 900 pg/mL at 50–74 years, &gt; 1800 pg/mL over 74 years. NT-proBNP above 2000 pg/mL in primary care doubles the risk of early hospitalization — see the patient quickly.</p></div>
+</div>
+<div class="note">Peptides rise with age, AF, kidney dysfunction, LV hypertrophy, myocarditis, pulmonary embolism or hypertension, critical illness and RV pacing. They fall with obesity, African ancestry and treatment with ARNI, ACE-I or ARB — read every value against the patient in front of you.</div>
+
+<h4 class="sub">Echocardiographic support for HFpEF</h4>
+<table>
+<tr><th>Domain</th><th>Threshold</th></tr>
+<tr><td>LV mass index</td><td>≥ 115 g/m² (men) or ≥ 95 g/m² (women), or relative wall thickness &gt; 0.42</td></tr>
+<tr><td>Left atrial volume index</td><td>&gt; 34 mL/m² in sinus rhythm, &gt; 40 mL/m² in AF</td></tr>
+<tr><td>Filling pressure</td><td>E/e′ &gt; 9 at rest (E/e′ ≥ 15 is more specific, less sensitive)</td></tr>
+<tr><td>Pulmonary pressure</td><td>Estimated systolic PA pressure &gt; 35 mmHg, or TR velocity &gt; 2.8 m/s at rest</td></tr>
+</table>
+<p style="color:var(--muted);font-size:.92rem">The more parameters that are abnormal, the higher the probability. Invasive confirmation — PCWP ≥ 15 mmHg at rest, ≥ 25 mmHg on exercise, or LV end-diastolic pressure ≥ 16 mmHg — is reserved for genuine diagnostic uncertainty.</p>
+
+</section>
+<section id="pharmacotherapy">
+<h2 class="sec"><em>Section 6.1</em>Drug therapy for chronic heart failure</h2>
+<p class="lead">Two drugs now sit under every phenotype. SGLT2 inhibitors and MRAs are foundational whatever the ejection fraction; the rest of the foundation is added in HFrEF.</p>
+<h3 class="grp">All patients with HF, independent of LVEF</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor (dapagliflozin or empagliflozin) in symptomatic HF at any LVEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>MRA in symptomatic HF at any LVEF — steroidal in HFrEF, steroidal or non-steroidal in HFpEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Loop diuretic dosed dynamically to volume status when there are signs or symptoms of congestion</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Uptitrate foundational therapy at least every 1–2 weeks, guided by symptoms, vital signs and labs, towards trial target doses</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Continue foundational therapy at the highest tolerated dose, including patients who become asymptomatic or whose LVEF improves</p></li>
+</ul>
+<h3 class="grp">HFrEF (LVEF &lt; 50%)</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Beta-blocker in stable symptomatic HFrEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>ACE inhibitor or ARNI in symptomatic HFrEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Switch from ACE inhibitor or ARB to ARNI in symptomatic HFrEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>ARB when ACE inhibitor and ARNI are both not tolerated</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Cardiac glycoside (digoxin or digitoxin) with LVEF ≤ 40% despite optimal foundational therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Ivabradine with LVEF ≤ 35%, sinus rhythm, heart rate &gt; 70 b.p.m. on maximally tolerated foundational therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Ivabradine with LVEF ≤ 35% in sinus rhythm when a beta-blocker cannot be tolerated</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>Hydralazine plus isosorbide dinitrate in self-identified black patients with LVEF ≤ 40% on optimal therapy</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Hydralazine plus isosorbide dinitrate when ARNI, ACE inhibitor and ARB are all not tolerated</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Vericiguat with LVEF &lt; 45% despite optimal foundational therapy</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Gradual withdrawal of foundational therapy only in highly selected asymptomatic patients with fully normalized function, volumes and natriuretic peptides after a reversible cause was treated — under close surveillance</p></li>
+</ul>
+<h3 class="grp">HFpEF (LVEF ≥ 50%)</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>ACE inhibitor, ARB or ARNI may be added in symptomatic HFpEF to reduce hospitalization</p></li>
+</ul>
+
+<h4 class="sub">Evidence-based doses in the key trials</h4>
+<table>
+<tr><th>Drug</th><th>Starting dose</th><th>Target dose</th></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">ACE inhibitors</td></tr>
+<tr><td>Captopril</td><td class="n">6.25 mg t.i.d.</td><td class="n">50 mg t.i.d.</td></tr>
+<tr><td>Enalapril</td><td class="n">2.5 mg b.i.d.</td><td class="n">10–20 mg b.i.d.</td></tr>
+<tr><td>Lisinopril</td><td class="n">2.5–5 mg o.d.</td><td class="n">20–35 mg o.d.</td></tr>
+<tr><td>Ramipril</td><td class="n">1.25–2.5 mg b.i.d.</td><td class="n">5 mg b.i.d.</td></tr>
+<tr><td>Trandolapril</td><td class="n">0.5 mg o.d.</td><td class="n">4 mg o.d.</td></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">ARNI / ARBs</td></tr>
+<tr><td>Sacubitril–valsartan</td><td class="n">49/51 mg b.i.d.</td><td class="n">97/103 mg b.i.d.</td></tr>
+<tr><td>Candesartan</td><td class="n">4 mg o.d.</td><td class="n">32 mg o.d.</td></tr>
+<tr><td>Losartan</td><td class="n">25–50 mg o.d.</td><td class="n">150 mg o.d.</td></tr>
+<tr><td>Valsartan</td><td class="n">40 mg b.i.d.</td><td class="n">160 mg b.i.d.</td></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">Beta-blockers</td></tr>
+<tr><td>Bisoprolol</td><td class="n">1.25 mg o.d.</td><td class="n">10 mg o.d.</td></tr>
+<tr><td>Carvedilol</td><td class="n">3.125 mg b.i.d.</td><td class="n">25 mg b.i.d. (50 mg b.i.d. above 85 kg)</td></tr>
+<tr><td>Metoprolol succinate CR/XL</td><td class="n">12.5–25 mg o.d.</td><td class="n">200 mg o.d.</td></tr>
+<tr><td>Nebivolol</td><td class="n">1.25 mg o.d.</td><td class="n">10 mg o.d.</td></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">MRAs — steroidal and non-steroidal</td></tr>
+<tr><td>Eplerenone</td><td class="n">25 mg o.d.</td><td class="n">50 mg o.d.</td></tr>
+<tr><td>Spironolactone</td><td class="n">12.5–25 mg o.d.</td><td class="n">50 mg o.d.</td></tr>
+<tr><td>Finerenone</td><td class="n">10–20 mg o.d.</td><td class="n">20–40 mg o.d. (by eGFR)</td></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">SGLT2 inhibitors</td></tr>
+<tr><td>Dapagliflozin</td><td class="n">10 mg o.d.</td><td class="n">10 mg o.d.</td></tr>
+<tr><td>Empagliflozin</td><td class="n">10 mg o.d.</td><td class="n">10 mg o.d.</td></tr>
+<tr><td colspan="3" style="background:var(--panel);font-weight:600;color:var(--navy)">Other agents</td></tr>
+<tr><td>Digoxin</td><td class="n">62.5 µg o.d.</td><td class="n">250 µg o.d. (titrate to level)</td></tr>
+<tr><td>Digitoxin</td><td class="n">0.07 mg o.d.</td><td class="n">0.1 mg o.d. (titrate to level)</td></tr>
+<tr><td>Ivabradine</td><td class="n">5 mg b.i.d.</td><td class="n">7.5 mg b.i.d.</td></tr>
+<tr><td>Vericiguat</td><td class="n">2.5 mg o.d.</td><td class="n">10 mg o.d.</td></tr>
+<tr><td>Hydralazine / isosorbide dinitrate</td><td class="n">37.5 / 20 mg t.i.d.</td><td class="n">75 / 40 mg t.i.d.</td></tr>
+</table>
+<div class="note">Finerenone starts at 10–20 mg when eGFR is ≤ 60 mL/min/1.73 m², 20–40 mg above it. Sacubitril–valsartan can start at 24/26 mg twice daily after symptomatic hypotension, in ACE-I-naïve patients, or with eGFR 30–60 mL/min/1.73 m².</div>
+
+</section>
+<section id="devices">
+<h2 class="sec"><em>Section 6.2</em>Devices and interventional therapy</h2>
+<p class="lead">Guideline-directed interventional therapy (GDIT) covers every device and procedure with a recommendation — it works with the drugs, not after them.</p>
+<h3 class="grp">Implantable cardioverter-defibrillator</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Secondary prevention after a haemodynamically unstable ventricular arrhythmia, no reversible cause, survival &gt; 1 year with good functional status expected</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Primary prevention in symptomatic HFrEF of ischaemic aetiology (not within 40 days of MI), LVEF ≤ 35% after ≥ 3 months of optimal foundational therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Primary prevention in non-ischaemic aetiology, LVEF ≤ 35% after ≥ 3 months of optimal foundational therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Shared decision-making with an experienced cardiologist before generator replacement</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Wearable cardioverter-defibrillator for a limited period as a bridge to decision or to transplantation</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B1</span></span><p>Not for primary prevention within 40 days of myocardial infarction</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Not in NYHA class IV refractory to drug therapy unless a candidate for CRT, assist device or transplantation</p></li>
+</ul>
+<h3 class="grp">Cardiac resynchronization therapy</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Symptomatic HFrEF, LVEF ≤ 35%, sinus rhythm, LBBB with QRS ≥ 150 ms despite optimal foundational therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Upgrade to CRT with LVEF ≤ 35% and worsening HF on a pacemaker or ICD with a high proportion of RV pacing</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>CRT rather than RV pacing in HFrEF with an indication for pacing for high-degree AV block, any NYHA class or QRS width</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Non-LBBB with QRS ≥ 150 ms, LVEF ≤ 35%, sinus rhythm</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>LBBB with QRS 130–149 ms, LVEF ≤ 35%, sinus rhythm</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Non-LBBB with QRS 130–149 ms, LVEF ≤ 35%, sinus rhythm</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Starting foundational therapy and planning CRT at the same time in LBBB ≥ 150 ms with LVEF ≤ 35% — reassess LVEF before implantation</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">A</span></span><p>Not indicated with QRS &lt; 130 ms in the absence of a pacing indication</p></li>
+</ul>
+</section>
+<section id="dhf">
+<h2 class="sec"><em>Section 7</em>Decompensated heart failure</h2>
+<p class="lead">Acute HF is now called decompensated HF: new or gradually worsening symptoms severe enough to force an unplanned admission, emergency visit or urgent ambulatory visit.</p>
+<h3 class="grp">Oxygen and ventilation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Oxygen when SpO₂ &lt; 90% or PaO₂ &lt; 60 mmHg</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Intubation for persistent, progressive respiratory failure despite oxygen or non-invasive ventilation</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>Non-invasive positive pressure ventilation in respiratory distress (rate &gt; 25/min, SpO₂ &lt; 90%), started as early as possible</p></li>
+</ul>
+<h3 class="grp">Decongestion</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Intravenous loop diuretic for every patient admitted with fluid overload</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Add short-term intravenous acetazolamide or oral hydrochlorothiazide when fluid overload persists on loop diuretics</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Urinary sodium-guided diuretic dosing during the first days of treatment</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Start an SGLT2 inhibitor in hospital once the patient is stabilized</p></li>
+</ul>
+<h3 class="grp">Vasoactive drugs</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Intravenous vasodilators as initial therapy when systolic BP &gt; 110 mmHg</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Inotropes when systolic BP &lt; 90 mmHg with hypoperfusion not responding to standard treatment including a fluid challenge</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Vasopressors, norepinephrine preferred, in cardiogenic shock</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Routine opiates are not recommended unless there is severe pain or anxiety</p></li>
+</ul>
+<h3 class="grp">Temporary mechanical circulatory support in cardiogenic shock</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>A multidisciplinary Shock Team decides device modality and type in potential candidates</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Microaxial flow pump in selected STEMI-related shock with LV systolic dysfunction and no risk of hypoxic brain injury</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Temporary support for MI-related mechanical complications as a bridge to definitive treatment</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Temporary support in selected HF-related haemodynamic instability as a bridge to recovery, decision, bridge, candidacy or transplantation</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B1</span></span><p>Not for unselected cardiogenic shock after acute MI — risk of harm</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B1</span></span><p>Intra-aortic balloon pump not recommended in unselected cardiogenic shock — no effect</p></li>
+</ul>
+<h3 class="grp">Before and after discharge</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Careful evaluation before discharge to exclude persisting congestion</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Rapid initiation and uptitration of foundational therapy before discharge, with frequent visits over the first 6 weeks</p></li>
+</ul>
+
+<h4 class="sub">Reading the presentation</h4>
+<div class="two">
+<div class="panel"><h4>Left-sided congestion</h4><ul>
+<li>Dyspnoea, orthopnoea, cough, tachypnoea</li><li>Rales, third heart sound</li><li>Pleural effusion</li><li>Raised natriuretic peptides</li></ul></div>
+<div class="panel"><h4>Right-sided congestion</h4><ul>
+<li>Peripheral oedema, abdominal distension, ascites</li><li>Hepatomegaly, jugular venous distension, hepatojugular reflux</li>
+<li>Raised creatinine, bilirubin, ALP and GGT</li><li>Only slightly raised natriuretic peptides</li></ul></div>
+<div class="panel"><h4>Hypoperfusion</h4><ul>
+<li>Cold sweaty extremities, pale skin</li><li>Dizziness, confusion, oliguria</li>
+<li>Narrow pulse pressure</li><li>Raised lactate, creatinine and aminotransferases</li></ul></div>
+</div>
+
+<h4 class="sub">SCAI stages of cardiogenic shock</h4>
+<table>
+<tr><th>Stage</th><th>What it means</th></tr>
+<tr><td class="n">A — At risk</td><td>No signs or symptoms of shock, but at risk of developing it</td></tr>
+<tr><td class="n">B — Beginning</td><td>Haemodynamic instability (relative hypotension or tachycardia) without hypoperfusion</td></tr>
+<tr><td class="n">C — Classic</td><td>Hypoperfusion needing intervention: inotrope, vasopressor or mechanical support</td></tr>
+<tr><td class="n">D — Deteriorating</td><td>As stage C, but failing to respond to initial intervention</td></tr>
+<tr><td class="n">E — Extremis</td><td>Refractory shock or cardiac arrest needing several simultaneous interventions, including CPR</td></tr>
+</table>
+
+</section>
+<section id="advanced">
+<h2 class="sec"><em>Section 8</em>Advanced heart failure</h2>
+<p class="lead">The message is timing. Refer while the patient still has options, not when end-organ failure has closed them.</p>
+<h3 class="grp">Recognition and evaluation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Early consultation with an advanced HF centre for patients with, or at risk of, advanced HF who are motivated and have no absolute contraindication to transplantation or durable support</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Cardiopulmonary exercise testing as part of transplantation and durable support evaluation</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Right heart catheterization as part of transplantation and durable support evaluation</p></li>
+</ul>
+<h3 class="grp">Medical management</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Down-titrate or stop beta-blockers or ivabradine in selected patients with organ hypoperfusion despite initial treatment</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Continuous inotropes with low cardiac output and hypoperfusion or end-organ dysfunction, as a bridge to decision, transplantation or durable support</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Kidney replacement therapy in refractory volume overload with end-stage kidney failure</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Ultrafiltration in refractory volume overload unresponsive to diuretic escalation</p></li>
+</ul>
+<h3 class="grp">Durable support and transplantation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Durable LVAD in selected advanced HFrEF despite foundational and interventional therapy — as bridge to transplantation, candidacy, recovery, or as destination therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Histopathology of explanted heart tissue after LVAD or transplantation in non-ischaemic HF, to find a treatable cause or guide family screening</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Heart transplantation in selected advanced HF refractory to foundational and interventional therapy without contraindications</p></li>
+</ul>
+
+<h4 class="sub">Defining advanced heart failure</h4>
+<div class="panel"><h4>All of these, despite foundational, additional and interventional therapy</h4>
+<ul>
+<li>Severe, persistent symptoms — NYHA class III or IV.</li>
+<li>Severe cardiac dysfunction: LVEF ≤ 30%; or isolated RV failure; or inoperable severe valve or congenital lesions; or persistently high natriuretic peptides with severe diastolic dysfunction or structural abnormality.</li>
+<li>Episodes of congestion needing high-dose intravenous diuretics, or malignant arrhythmias, causing ≥ 2 unplanned visits or admissions in 12 months.</li>
+<li>Severe impairment of exercise capacity of cardiac origin.</li>
+</ul></div>
+<div class="two">
+<div class="panel"><h4>Rule of three — at least one</h4><ul>
+<li>≥ 2 HF admissions, or ≥ 1 needing inotropes, in the last year</li>
+<li>Diuretic resistance</li>
+<li>Intolerance of neurohormonal drugs with cardiorenal syndrome</li></ul></div>
+<div class="panel"><h4>I NEED HELP — at least one</h4><ul>
+<li>Inotropes</li><li>NYHA III/IV or persistently high natriuretic peptides</li>
+<li>End-organ dysfunction (liver, kidney)</li><li>EF &lt; 20% or poor RV function</li>
+<li>Defibrillator shocks</li><li>More than one HF admission</li>
+<li>Escalating diuretics</li><li>Low blood pressure with high heart rate</li>
+<li>Intolerance of prognostic drugs, or need to down-titrate</li></ul></div>
+</div>
+<details><summary>Contraindications to heart transplantation</summary>
+<p style="margin:10px 0 0"><b>Absolute:</b> inability to comply with treatment (for example dementia); serious comorbidity with poor prognosis that transplantation will not reverse.</p>
+<p><b>Other:</b> active infection; severe peripheral or cerebrovascular disease; pharmacologically irreversible pulmonary vascular resistance; cancer; irreversible liver cirrhosis or kidney dysfunction; multiorgan systemic disease; BMI &gt; 35 kg/m² or severe cachexia; alcohol or substance misuse or active smoking within 6 months; psychological instability; social support insufficient for outpatient care.</p></details>
+
+</section>
+<section id="cv-comorbid">
+<h2 class="sec"><em>Section 9</em>Cardiovascular comorbidities</h2>
+<p class="lead">Atrial fibrillation, coronary disease and valve disease decide much of the prognosis — and each has a changed recommendation this cycle.</p>
+<h3 class="grp">Atrial fibrillation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Oral anticoagulation when CHA₂DS₂-VA indicates elevated thromboembolic risk</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Direct oral anticoagulants preferred over vitamin K antagonists</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Beta-blockers as first-line rate control in stable HFrEF with AF</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Digoxin when rate stays high on beta-blockers, or when beta-blockers are contraindicated or not tolerated</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>AV node ablation with CRT in severely symptomatic permanent AF with poor rate control despite drugs and at least one HF hospitalization</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Intravenous amiodarone or digoxin in haemodynamically unstable HFrEF with AF for acute rate control</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Urgent cardioversion in decompensated HF with rapid ventricular rate and haemodynamic instability</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Catheter ablation in selected patients with symptomatic AF and HFrEF</p></li>
+</ul>
+<h3 class="grp">Chronic coronary syndrome</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Revascularization in HF with obstructive CAD and persistent angina despite foundational and antianginal therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>CABG as the preferred strategy, after Heart Team assessment, with LVEF ≤ 35% and multivessel disease suitable for surgery</p></li>
+</ul>
+<h3 class="grp">Valvular heart disease</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Aortic valve intervention (SAVR or TAVI) in severe aortic stenosis with HF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Mitral transcatheter edge-to-edge repair in stable symptomatic HFrEF with persistent severe secondary mitral regurgitation despite optimized therapy and CRT, meeting the selection criteria</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Mitral TEER in selected symptomatic patients who do not meet all criteria, after LVAD and transplantation have been excluded</p></li>
+</ul>
+
+<h4 class="sub">CHA₂DS₂-VA — the sex category is gone</h4>
+<table>
+<tr><th></th><th>Description</th><th>Points</th></tr>
+<tr><td class="n">C</td><td>Chronic HF, stage B, C or D</td><td>1</td></tr>
+<tr><td class="n">H</td><td>Hypertension</td><td>1</td></tr>
+<tr><td class="n">A</td><td>Age ≥ 75 years</td><td>2</td></tr>
+<tr><td class="n">D</td><td>Diabetes mellitus</td><td>1</td></tr>
+<tr><td class="n">S</td><td>Stroke, TIA or arterial thromboembolism</td><td>2</td></tr>
+<tr><td class="n">V</td><td>Vascular disease (coronary and/or peripheral)</td><td>1</td></tr>
+<tr><td class="n">A</td><td>Age 65–74 years</td><td>1</td></tr>
+</table>
+<p style="color:var(--muted);font-size:.92rem">A score of 2 or more is recommended as the trigger for oral anticoagulation; a score of 1 should be considered a trigger. Lenient rate control — resting rate below 110 b.p.m. — is the initial target, then reassess by symptoms. Catheter ablation is for selected patients: high AF burden, persistent AF for less than a year, and a clear cause-and-effect link between AF and HF.</p>
+
+<h4 class="sub">Who qualifies for mitral edge-to-edge repair</h4>
+<div class="panel"><ul>
+<li>Optimized foundational therapy and CRT if indicated</li>
+<li>NYHA class ≥ II</li>
+<li>An HF admission in the last year, or BNP ≥ 300 pg/mL or NT-proBNP ≥ 1000 pg/mL</li>
+<li>Not stage D (advanced) HF</li>
+<li>No CAD needing revascularization</li>
+<li>No hypertrophic, restrictive or infiltrative cardiomyopathy</li>
+<li>LVEF 20–50%, LV end-systolic diameter ≤ 70 mm</li>
+<li>Anatomy suitable for TEER; systolic PA pressure ≤ 70 mmHg</li>
+<li>No severe RV dysfunction; no severe aortic or tricuspid disease</li>
+</ul></div>
+
+</section>
+<section id="noncv-comorbid">
+<h2 class="sec"><em>Section 10</em>Non-cardiovascular comorbidities</h2>
+<p class="lead">Obesity treatment enters the guideline with an incretin recommendation; iron, lung disease, mood and frailty complete the screen.</p>
+<h3 class="grp">Obesity</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Semaglutide or tirzepatide in symptomatic HF with LVEF ≥ 45% and BMI ≥ 30 kg/m², whether or not the patient has diabetes</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Bariatric surgery with BMI ≥ 35 kg/m² when structured lifestyle change plus weight-reducing drugs fail to maintain weight loss</p></li>
+</ul>
+<h3 class="grp">Iron deficiency</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Intravenous iron in symptomatic HFrEF with iron deficiency, to relieve symptoms and improve quality of life</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Intravenous iron in symptomatic HFrEF with iron deficiency, to reduce hospitalization</p></li>
+</ul>
+<h3 class="grp">Lung disease and sleep-disordered breathing</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Adaptive servo-ventilation may be considered in HFrEF with predominantly obstructive sleep apnoea</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">A</span></span><p>Adaptive servo-ventilation is not recommended in HFrEF with predominantly central sleep apnoea — increased mortality</p></li>
+</ul>
+<h3 class="grp">Mood, frailty and general care</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Assess anxiety, depression and frailty to shape a personalized care plan</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Influenza and pneumococcal vaccination</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B2</span></span><p>NSAIDs and COX-2 inhibitors are not recommended — they worsen HF and drive hospitalization</p></li>
+</ul>
+</section>
+<section id="team">
+<h2 class="sec"><em>Section 11</em>Team management, rehabilitation and follow-up</h2>
+<p class="lead">Exercise-based rehabilitation moves up to a Class I recommendation, and palliative care is written into the advanced-stage pathway.</p>
+<h3 class="grp">Multidisciplinary management</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>A multidisciplinary HF management programme</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>HF education and self-management strategies</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Interventions to improve adherence, including health-literacy assessment and polypharmacy review</p></li>
+</ul>
+<h3 class="grp">Exercise training and rehabilitation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Personalized exercise training within multidisciplinary exercise-based cardiac rehabilitation for all stable patients without contraindications</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Personalized exercise training outside formal rehabilitation, long term, for all stable patients without contraindications</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Cardiac rehabilitation after LVAD implantation</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Cardiac rehabilitation after decompensated HF, as soon as it is safe</p></li>
+</ul>
+<h3 class="grp">Telemonitoring and long-term follow-up</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Remote pulmonary artery pressure monitoring in symptomatic NYHA class III patients with an HF hospitalization in the past 12 months</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Non-invasive telemonitoring may be considered to reduce hospitalization</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Proactive discussion of trajectory, goals of care and advance care planning in advanced HF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Access to an integrated HF palliative care team at the advanced stage</p></li>
+</ul>
+</section>
+<section id="specific">
+<h2 class="sec"><em>Section 12</em>Specific conditions</h2>
+<p class="lead">Pregnancy and cardiac amyloidosis carry the two most practice-changing statements of this section.</p>
+<h3 class="grp">Pregnancy</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Pre-conception care and counselling covering HF treatment, pregnancy, contraception, pre-implantation genetic screening and assisted reproduction</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>In pregnant women with HFrEF, switch non-selective beta-blockers to beta1-selective agents (metoprolol, bisoprolol) with close maternal and foetal monitoring</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>ACE inhibitors, ARBs, ARNIs, MRAs, ivabradine and SGLT2 inhibitors are not recommended in pregnancy — foetotoxicity and teratogenicity</p></li>
+</ul>
+<h3 class="grp">Cardiac amyloidosis</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>A TTR silencer (vutrisiran) or stabilizer (tafamidis or acoramidis) in variant or wild-type transthyretin cardiac amyloidosis, NYHA class I–III</p></li>
+</ul>
+
+<h4 class="sub">Red flags for cardiac amyloidosis</h4>
+<table>
+<tr><th>Where</th><th>Red flag</th><th>ATTR</th><th>AL</th></tr>
+<tr><td rowspan="2" class="n">Neurological</td><td>Polyneuropathy</td><td>✓</td><td>✓</td></tr>
+<tr><td>Dysautonomia</td><td>✓</td><td>✓</td></tr>
+<tr><td rowspan="2" class="n">Soft tissue</td><td>Skin bruising, macroglossia</td><td>—</td><td>✓</td></tr>
+<tr><td>Bilateral carpal tunnel, ruptured biceps tendon, lumbar spinal stenosis, deafness</td><td>✓</td><td>—</td></tr>
+<tr><td class="n">Family / eye</td><td>Family history, vitreous deposits</td><td>✓</td><td>—</td></tr>
+<tr><td class="n">Kidney</td><td>Kidney insufficiency, proteinuria</td><td>✓</td><td>✓</td></tr>
+<tr><td class="n">Clinical</td><td>Hypotension or normal BP in a previously hypertensive patient</td><td>✓</td><td>✓</td></tr>
+<tr><td class="n">ECG</td><td>Pseudo-infarct pattern; low or falling QRS voltage relative to wall thickness</td><td>✓</td><td>✓</td></tr>
+</table>
+<div class="note">In amyloidosis with AF, anticoagulate regardless of the CHA₂DS₂-VA score. Exclude intracardiac thrombus by transoesophageal echocardiography before cardioversion whatever the duration of anticoagulation, and avoid digoxin — the toxicity risk is high. Beta-blockers and ACE-I/ARNI/ARB need caution, individual decisions and close monitoring.</div>
+
+</section>
+
+<section id="key-messages">
+<h2 class="sec"><em>Section 13</em>Key messages</h2>
+<p class="lead">The Task Force's own summary of what should change in practice.</p>
+<div class="panel"><h4>Diagnosis</h4><ul>
+<li>Natriuretic peptides and echocardiography carry the diagnosis; further tests define aetiology and phenotype.</li>
+<li>Use multimodality assessment to find treatable causes.</li></ul></div>
+<div class="panel"><h4>Therapy</h4><ul>
+<li>ARNI or ACE-I (ARB if intolerant), beta-blocker, MRA and SGLT2-I are foundational in HFrEF; MRA and SGLT2-I are foundational in HFpEF.</li>
+<li>ICD is recommended in selected HFrEF with LVEF ≤ 35% of ischaemic aetiology, and should be considered in non-ischaemic aetiology.</li>
+<li>CRT-P or CRT-D is recommended with LVEF ≤ 35%, sinus rhythm and LBBB ≥ 150 ms, and should be considered with LBBB 130–149 ms or non-LBBB ≥ 150 ms.</li></ul></div>
+<div class="panel"><h4>Decompensated heart failure</h4><ul>
+<li>Treat the trigger urgently; diuretics for congestion, vasodilators when blood pressure is high, inotropes or temporary support for hypoperfusion.</li>
+<li>Exclude residual congestion before discharge, optimize foundational therapy before the patient leaves, and plan close early follow-up.</li></ul></div>
+<div class="panel"><h4>Advanced disease and comorbidity</h4><ul>
+<li>Refer patients refractory to therapy for transplantation or mechanical support while options remain open.</li>
+<li>Screen and treat non-cardiovascular comorbidity — diabetes, CKD, obesity, iron deficiency, anxiety and depression — and assess frailty.</li>
+<li>Switch glucose-lowering drugs without proven cardiovascular safety to agents with proven benefit.</li>
+<li>A multidisciplinary programme and exercise-based rehabilitation are core, not optional extras.</li></ul></div>
+</section>
+
+
+<div class="part" id="part-ckd" data-spy="ckd-basics">
+  <p class="eyebrow">Part 2</p>
+  <h2>Cardiovascular disease and chronic kidney disease</h2>
+  <p class="src">2026 ESC Guidelines with the European Renal Association · European Heart Journal 2026 · doi:10.1093/eurheartj/ehag098</p>
+  <div class="hl">
+    <div><b>Two numbers stage the disease</b><span>eGFR and uACR together — never one alone.</span></div>
+    <div><b>Systolic target 120–129 mmHg</b><span>When eGFR ≥ 30 and it is tolerated.</span></div>
+    <div><b>SGLT2 inhibitors down to eGFR 20</b><span>And continued below it until dialysis.</span></div>
+    <div><b>Risk scores fail below eGFR 30</b><span>Stroke and bleeding scores in AF stop working.</span></div>
+  </div>
+</div>
+
+<section id="ckd-basics">
+<h2 class="sec"><em>Section 3</em>Defining, staging and screening CKD</h2>
+<p class="lead">CKD is abnormal kidney structure or function for at least three months. In practice that means eGFR below 60 mL/min/1.73 m² or uACR ≥ 3 mg/mmol (30 mg/g), confirmed twice.</p>
+<h3 class="grp">Diagnosis and staging</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Classify CKD by GFR and albuminuria into moderate, high or very high risk to gauge the likelihood of kidney failure and cardiovascular complications</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Creatinine-based eGFR from a validated equation to assess function and stage the disease</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>uACR on a spot morning urine sample to quantify albuminuria and complete the stage</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Two measurements of eGFR and uACR at least 3 months apart to establish chronicity</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">A</span></span><p>Cystatin C-based eGFR when creatinine is unreliable — very high or low muscle mass, or drugs interfering with tubular creatinine secretion</p></li>
+</ul>
+<h3 class="grp">Finding the cause</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Urine dipstick for microscopic haematuria in newly identified CKD, to detect glomerular disease needing nephrology referral</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Urinary tract ultrasound in new CKD or unexplained sudden eGFR fall, for kidney size, symmetry and obstruction</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Consider renovascular imaging in rapidly progressive CKD without cause, a ≥ 30% eGFR change on starting or stopping a renally active drug, recurrent flash pulmonary oedema, or resistant hypertension</p></li>
+</ul>
+<h3 class="grp">Screening and re-testing</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>At least annual eGFR in diabetes or high risk of worsening kidney function</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>At least annual albuminuria testing in diabetes, hypertension, reduced eGFR or haematuria, or whenever albuminuria would change treatment</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Repeat eGFR and albuminuria within days to weeks after an unexpected fall in eGFR or rise in albuminuria, so AKI is caught in time</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>More frequent eGFR testing in patients at risk of AKI or on renally excreted drugs with a narrow therapeutic window</p></li>
+</ul>
+<h3 class="grp">Kidney failure risk</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Use a validated Kidney Failure Risk Equation in CKD categories G3–5 to estimate absolute risk of needing kidney replacement therapy and time nephrology referral</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Assess symptoms and signs of hypertension, ASCVD, heart failure, arrhythmia and valve disease at every clinical encounter</p></li>
+</ul>
+
+<h4 class="sub">Staging: two axes, one risk</h4>
+<table>
+<tr><th>GFR category</th><th>eGFR (mL/min/1.73 m²)</th><th>Albuminuria category</th><th>uACR</th></tr>
+<tr><td class="n">G1</td><td>≥ 90</td><td class="n">A1 — normal to mildly raised</td><td>&lt; 3 mg/mmol (&lt; 30 mg/g)</td></tr>
+<tr><td class="n">G2</td><td>60–89</td><td class="n">A2 — moderately raised</td><td>3–30 mg/mmol (30–300 mg/g)</td></tr>
+<tr><td class="n">G3a / G3b</td><td>45–59 / 30–44</td><td class="n">A3 — severely raised</td><td>&gt; 30 mg/mmol (&gt; 300 mg/g)</td></tr>
+<tr><td class="n">G4</td><td>15–29</td><td colspan="2" rowspan="2">Risk rises along both axes — the lower the eGFR and the higher the uACR, the higher the risk of kidney failure and of cardiovascular events.</td></tr>
+<tr><td class="n">G5</td><td>&lt; 15</td></tr>
+</table>
+<div class="note">Creatinine-based eGFR is imprecise above 60 mL/min/1.73 m² and unreliable at extremes of muscle mass — that is where cystatin C earns its place. The 2009 CKD-EPI equation without the race coefficient is preferred for European populations; the 2021 US equation overestimates GFR across much of Europe.</div>
+
+</section>
+<section id="ckd-risk">
+<h2 class="sec"><em>Section 4</em>Cardiovascular risk assessment in CKD</h2>
+<p class="lead">Standard risk scores under-read risk in kidney disease. Scores that carry eGFR and albuminuria come first, and severe CKD is treated as very high risk without calculation.</p>
+<h3 class="grp">Estimating risk</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>Prefer risk scores that incorporate eGFR and albuminuria for cardiovascular risk assessment in CKD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>Treat severe CKD as very high cardiovascular risk: eGFR &lt; 30 with any albuminuria; eGFR 30–44 with uACR 3–30 mg/mmol; or uACR &gt; 30 mg/mmol at any eGFR</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>Treat moderate CKD without other major risk factors as high risk: eGFR 30–44 with uACR &lt; 3 mg/mmol, or eGFR 45–59 with uACR 3–30 mg/mmol</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>SCORE2 (under 70 years) or SCORE2-OP (70 and over) with the CKD add-on when an accurate absolute risk estimate is needed</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>SCORE2-Diabetes in CKD with type 2 diabetes and no symptomatic ASCVD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B</span></span><p>SMART2 in CKD with established atherosclerotic vascular disease</p></li>
+</ul>
+</section>
+<section id="ckd-riskreduction">
+<h2 class="sec"><em>Section 5</em>Reducing kidney and cardiovascular risk</h2>
+<p class="lead">Four pillars protect both organs: pressure, lipids, the renin–angiotensin axis with SGLT2 inhibition, and glucose. The blood pressure target is lower than most clinicians expect.</p>
+<h3 class="grp">Lifestyle</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Smoking cessation with supportive care and referral to a cessation programme</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Individualized diet low in sodium (&lt; 2 g sodium, about 5 g salt daily) and high in vegetables</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Weight loss through individualized lifestyle change, with or without weight-loss medication, in overweight or obese patients (BMI ≥ 25 kg/m²) towards BMI 18.5–25</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Physical activity — around 150 minutes of moderate intensity per week where possible</p></li>
+</ul>
+<h3 class="grp">Blood pressure</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Screen with attended standardized office blood pressure measurement in every patient with CKD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Intensify treatment when standardized office BP is ≥ 130/80 mmHg and eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Aim for a systolic target of 120–129 mmHg, if tolerated, when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Out-of-office measurement (ABPM or home) to identify white-coat, masked or raised night-time hypertension</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Individualize the target when eGFR is below 30 mL/min/1.73 m²</p></li>
+</ul>
+<h3 class="grp">Lipids</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Baseline extended lipid panel — total cholesterol, LDL-C, HDL-C, triglycerides — in newly diagnosed CKD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>An intensive statin-based regimen, irrespective of lipid levels, when eGFR &lt; 60 mL/min/1.73 m² and the patient is not on kidney replacement therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Non-HDL cholesterol (or apolipoprotein B) for risk prediction, and as an alternative target with high triglycerides or diabetes</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>A statin-based regimen in kidney transplant recipients</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Continuing a statin when dialysis starts; starting one on dialysis with previous ASCVD or a planned transplant</p></li>
+</ul>
+<h3 class="grp">Antithrombotic therapy</h3>
+<ul class="recs">
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B1</span></span><p>Routine antiplatelet therapy is not recommended with eGFR &lt; 60 mL/min/1.73 m² and no symptomatic ASCVD — the bleeding risk may outweigh the benefit</p></li>
+</ul>
+<h3 class="grp">Cardio-renal protective drugs</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Maximally tolerated ACE inhibitor or ARB in CKD, for blood pressure, slower progression and fewer cardiovascular events</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor in CKD with type 2 diabetes and eGFR ≥ 20 mL/min/1.73 m², whatever the glycaemic control</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor in CKD without diabetes when eGFR ≥ 20 mL/min/1.73 m² and uACR ≥ 20 mg/mmol (≥ 200 mg/g)</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Finerenone in CKD with type 2 diabetes, eGFR ≥ 25 mL/min/1.73 m² and uACR ≥ 3 mg/mmol (≥ 30 mg/g)</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>GLP-1 receptor agonist (semaglutide) in CKD with type 2 diabetes at the albuminuria and eGFR thresholds studied, with potassium monitoring after dose titration</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>SGLT2 inhibitor in CKD without diabetes when eGFR is 20–44 with uACR &lt; 20 mg/mmol, to slow progression</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">A</span></span><p>Combining an ARB with an ACE inhibitor is not recommended — AKI and severe hyperkalaemia outweigh any added benefit</p></li>
+</ul>
+<h3 class="grp">Glycaemic control</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitors and GLP-1 receptor agonists as first-line glucose-lowering agents in type 2 diabetes with CKD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Insulin when targets are not met with oral agents or a GLP-1 receptor agonist</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Personalized HbA1c target between &lt; 48 mmol/mol (6.5%) and &lt; 64 mmol/mol (8.0%), aiming for &lt; 53 mmol/mol (7.0%) where feasible</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Metformin when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>A DPP-4 inhibitor when a GLP-1 receptor agonist is not tolerated or contraindicated</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Sulfonylurea for additional glucose lowering</p></li>
+</ul>
+</section>
+<section id="ckd-hf">
+<h2 class="sec"><em>Section 6</em>Heart failure with chronic kidney disease</h2>
+<p class="lead">Relative treatment effects of foundational therapy are the same with or without CKD — and because absolute risk is higher, the absolute benefit is larger. eGFR thresholds, not eGFR fear, decide what to use.</p>
+<h3 class="grp">Screening</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Natriuretic peptides may be used as a screening tool for structural heart disease, cardiac dysfunction or incident HF in CKD</p></li>
+</ul>
+<h3 class="grp">Chronic HF at any LVEF</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Loop diuretics for symptoms and signs of fluid overload</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>SGLT2 inhibitor when eGFR ≥ 20 mL/min/1.73 m², irrespective of LVEF</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Steroidal MRA in HFrEF when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>MRA, steroidal or non-steroidal, with LVEF ≥ 40% and eGFR ≥ 25 mL/min/1.73 m²</p></li>
+</ul>
+<h3 class="grp">HFrEF with CKD</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>ACE inhibitor, ARNI or ARB (if the first two are not tolerated) when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Beta-blocker when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>ACE inhibitor with eGFR ≥ 30 mL/min/1.73 m² and asymptomatic LV dysfunction (LVEF ≤ 35%), to prevent incident HF</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>ARNI as an alternative to ACE inhibitor or ARB when eGFR ≥ 30 mL/min/1.73 m², to slow the decline in eGFR</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Cardiac glycosides (digoxin or digitoxin) when eGFR &gt; 20 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Ivabradine at the studied eGFR threshold, to reduce cardiovascular and HF events</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Hydralazine with isosorbide dinitrate in self-identified Black patients with a dilated ventricle and LVEF &lt; 45%</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>ACE inhibitor or ARB may be continued or considered with eGFR 15–29 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Beta-blocker may be considered at very low eGFR</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Vericiguat may be considered at the studied eGFR threshold</p></li>
+</ul>
+<h3 class="grp">HFpEF and comorbidity</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>GLP-1 receptor agonist (semaglutide) or tirzepatide in HFpEF with CKD and obesity, to reduce weight and improve quality of life</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Intravenous iron in HFrEF with CKD and iron deficiency, to reduce HF hospitalization</p></li>
+</ul>
+<h3 class="grp">Decompensated HF with CKD</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Start an SGLT2 inhibitor early during admission when eGFR &gt; 20 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>An initial intravenous dose above 40 mg furosemide-equivalent in diuretic-naïve patients with fluid overload</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Upfront acetazolamide added to an adequately dosed intravenous loop diuretic when eGFR ≥ 20 mL/min/1.73 m² on chronic loop diuretics</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Assess diuretic response in the first days of admission and adjust accordingly</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Upfront thiazide added to an adequate intravenous loop diuretic dose</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>An initial intravenous dose of 2.5 times the home loop diuretic dose in patients already on loop diuretics</p></li>
+</ul>
+<h3 class="grp">When eGFR falls on treatment</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Continue the SGLT2 inhibitor when eGFR drifts below 20 mL/min/1.73 m², to avoid worsening HF</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Continue the ARNI when eGFR drifts below 30 mL/min/1.73 m²</p></li>
+</ul>
+<h3 class="grp">Advanced HF with CKD</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Assessment by a combined heart–kidney transplant team in every transplant-eligible patient with baseline eGFR &lt; 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Haemodynamic optimization — diuretics, inotropes and short-term support guided by invasive haemodynamics — to judge reversibility</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Durable mechanical support is not recommended with baseline eGFR &lt; 30 mL/min/1.73 m² unlikely to improve, in patients who are not candidates for dual-organ transplantation</p></li>
+</ul>
+
+<h4 class="sub">eGFR thresholds worth memorizing</h4>
+<table>
+<tr><th>Drug</th><th>Start down to</th><th>Note</th></tr>
+<tr><td>SGLT2 inhibitor</td><td class="n">eGFR ≥ 20</td><td>Continue below 20 until kidney replacement therapy starts</td></tr>
+<tr><td>Steroidal MRA (HFrEF)</td><td class="n">eGFR ≥ 30</td><td>Not routinely on dialysis — hyperkalaemia</td></tr>
+<tr><td>MRA with LVEF ≥ 40%</td><td class="n">eGFR ≥ 25</td><td>Steroidal or non-steroidal</td></tr>
+<tr><td>ACE-I / ARNI / ARB, beta-blocker</td><td class="n">eGFR ≥ 30</td><td>May be considered at eGFR 15–29</td></tr>
+<tr><td>Finerenone (T2DM with CKD)</td><td class="n">eGFR ≥ 25</td><td>Needs uACR ≥ 3 mg/mmol</td></tr>
+<tr><td>Cardiac glycosides</td><td class="n">eGFR &gt; 20</td><td>Titrate to plasma level</td></tr>
+</table>
+<div class="note">A fall in eGFR after starting a foundational drug is expected, not a reason to stop. Continue the SGLT2 inhibitor below 20 and the ARNI below 30 rather than losing the treatment effect.</div>
+
+</section>
+<section id="ckd-ascvd">
+<h2 class="sec"><em>Section 7</em>Coronary, peripheral and cerebrovascular disease</h2>
+<p class="lead">Conservative first, individualized always. Bleeding risk shapes antiplatelet choice and duration more than in any other group.</p>
+<h3 class="grp">Chronic coronary syndrome</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>An individualized approach to diagnostic imaging in symptomatic CKD, weighing detection of obstructive disease against procedural harm</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Low-dose aspirin or clopidogrel when there is no indication for anticoagulation</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>A statin-based regimen with or without ezetimibe in patients not on dialysis</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Beta-blocker, calcium channel blocker, long-acting nitrate or a combination for angina relief</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>An initial conservative strategy with optimal medical therapy</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Individualized, multidisciplinary decisions on whether and how to revascularize (PCI vs CABG vs medical therapy)</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Clopidogrel in preference to aspirin when eGFR &gt; 30 mL/min/1.73 m² and there is no anticoagulation indication</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>PCSK9 inhibitor add-on with eGFR ≥ 20 mL/min/1.73 m² when LDL-C stays ≥ 1.8 mmol/L (70 mg/dL) despite statin therapy</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>Abbreviated DAPT of 1–3 months after elective PCI without an anticoagulation indication, to cut bleeding</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Radial rather than femoral access for PCI whenever feasible, including patients on dialysis</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Ranolazine with eGFR &gt; 30 mL/min/1.73 m² when angina persists on standard antianginals</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B2</span></span><p>CABG in preference to PCI in complex multivessel or left main disease, weighing anatomy and procedural risk</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Icosapent ethyl, ivabradine, trimetazidine or nicorandil as further options in defined subgroups</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>A statin-based regimen with or without ezetimibe may be considered in patients on dialysis</p></li>
+</ul>
+<h3 class="grp">Acute coronary syndrome</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>No delay to an immediate or early invasive strategy in STEMI or high-risk NSTE-ACS</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Early in-hospital ACE inhibitor when eGFR &gt; 20 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>In-hospital beta-blocker and steroidal MRA when the ACS is complicated by LV dysfunction or HF</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>Abbreviated DAPT of 3 months, or de-escalation after 1–3 months, without an anticoagulation indication</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>In-hospital SGLT2 inhibitor with eGFR &gt; 20 mL/min/1.73 m² when the ACS is complicated by LV dysfunction or HF</p></li>
+</ul>
+<h3 class="grp">Peripheral arterial and cerebrovascular disease</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Add toe pressures and/or toe–brachial index when testing for peripheral arterial disease in CKD</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Antiplatelet therapy after ischaemic stroke, including patients on kidney replacement therapy</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>LDL-C lowering with a statin, or statin plus ezetimibe, after ischaemic stroke in patients not on dialysis</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>A systolic target of 120–129 mmHg after stroke in patients not on kidney replacement therapy</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Maximally tolerated ACE inhibitor or ARB as first-line blood pressure therapy after cerebrovascular disease</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Intravenous thrombolysis in eligible patients with acute ischaemic stroke, including those on dialysis</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>Carotid endarterectomy for symptomatic high-grade stenosis</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Mechanical thrombectomy for eligible large-vessel occlusion, and stroke unit admission afterwards</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">B1</span></span><p>Very low-dose rivaroxaban (2.5 mg b.i.d.) added to low-dose aspirin with eGFR ≥ 30 mL/min/1.73 m², established ASCVD and low bleeding risk</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B2</span></span><p>Routine carotid revascularization is not recommended for asymptomatic stenosis over optimal medical therapy</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">A</span></span><p>Erythropoiesis-stimulating agents aiming at full correction of anaemia are not recommended — stroke risk rises</p></li>
+</ul>
+</section>
+<section id="ckd-thrombo">
+<h2 class="sec"><em>Section 8–9</em>Venous thromboembolism, atrial fibrillation and sudden death</h2>
+<p class="lead">Existing stroke and bleeding scores fail below eGFR 30. Anticoagulation there becomes an individual decision, not a calculated one.</p>
+<h3 class="grp">Venous thromboembolism</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>DOACs (oral factor Xa or direct thrombin inhibitors) over LMWH plus a vitamin K antagonist when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Oral factor Xa inhibitors may replace LMWH plus VKA with eGFR 15–29 mL/min/1.73 m² if the decision is to anticoagulate</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>A vitamin K antagonist or low-dose apixaban (2.5 mg b.i.d.) with eGFR &lt; 15 mL/min/1.73 m² off dialysis, if the decision is to anticoagulate</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Oral factor Xa inhibitors may be considered instead of LMWH plus VKA in patients on dialysis</p></li>
+</ul>
+<h3 class="grp">Atrial fibrillation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>A DOAC in preference to a vitamin K antagonist when eGFR ≥ 30 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B1</span></span><p>An oral factor Xa inhibitor in preference to a vitamin K antagonist with eGFR 15–29 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Individualized decisions on anticoagulation when eGFR &lt; 15 mL/min/1.73 m², including patients on dialysis</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>A vitamin K antagonist or reduced-dose apixaban (2.5 mg b.i.d.) below eGFR 15 off dialysis, if anticoagulation is chosen</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Low-dose oral factor Xa inhibitors preferentially over VKAs on dialysis, if anticoagulation is chosen</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Opportunistic screening for AF by pulse check or ECG, including patients on kidney replacement therapy</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B</span></span><p>Existing ischaemic stroke risk scores are not recommended below eGFR 30 mL/min/1.73 m² — they predict poorly</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Existing bleeding risk scores are not recommended below eGFR 30 mL/min/1.73 m²</p></li>
+</ul>
+<h3 class="grp">Rhythm control and devices</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Choose antiarrhythmic drugs with the high prevalence of structural and coronary disease and electrolyte-driven pro-arrhythmia in mind</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Rhythm control as an alternative to rate control to reduce symptoms</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Catheter ablation in patients on kidney replacement therapy whose AF causes haemodynamic instability during dialysis</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Catheter ablation may be considered, particularly for paroxysmal AF, to avoid long-term antiarrhythmic drug exposure</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>An antibiotic envelope in addition to periprocedural prophylaxis at device implantation in haemodialysis or transplant patients</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>A subcutaneous defibrillator instead of a transvenous ICD when no pacing, resynchronization or antitachycardia pacing is needed</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Routine ICD implantation is not recommended for primary prevention in haemodialysis patients with LVEF ≥ 35%</p></li>
+</ul>
+</section>
+<section id="ckd-valve">
+<h2 class="sec"><em>Section 10–11</em>Valve disease and protecting the kidney around procedures</h2>
+<p class="lead">Contrast fear delays care more often than contrast harms kidneys — permanent damage is rare, and delay is not.</p>
+<h3 class="grp">Valvular heart disease</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Comprehensive transthoracic echocardiography in suspected valve disease, whether or not the patient has symptoms</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>More frequent review, every 6–9 months, in moderate to severe aortic stenosis with eGFR &lt; 45 mL/min/1.73 m²</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Clinical and echocardiographic reassessment after starting dialysis in known moderate to severe valve disease</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Transcatheter rather than surgical aortic valve intervention in severe aortic stenosis in patients aged 70 or over with CKD</p></li>
+</ul>
+<h3 class="grp">Contrast and periprocedural kidney injury</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Do not delay procedures that need contrast — timely diagnosis and treatment come first</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">A</span></span><p>Iso-osmolar or low-osmolar iodinated contrast with contrast-sparing protocols when eGFR &lt; 30 mL/min/1.73 m² off dialysis</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Group two or three gadolinium agents when eGFR &lt; 30 mL/min/1.73 m² — the risk of nephrogenic systemic fibrosis is low</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>An integrated risk assessment combining eGFR, patient factors and the planned procedure</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Periprocedural intravenous hydration may be considered below eGFR 30 mL/min/1.73 m² off dialysis</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">B2</span></span><p>Prophylactic haemodialysis to prevent contrast-associated AKI is not recommended — it has been associated with harm</p></li>
+</ul>
+</section>
+<section id="ckd-krt">
+<h2 class="sec"><em>Section 12–14</em>Dialysis, transplantation and person-centred care</h2>
+<p class="lead">On dialysis the evidence thins and some familiar drugs become hazards. Before transplantation, cardiac screening is targeted rather than routine.</p>
+<h3 class="grp">Maintenance dialysis</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B1</span></span><p>Proactive regular high-dose intravenous iron (for example iron sucrose) on maintenance haemodialysis, unless ferritin &gt; 700 µg/L or transferrin saturation ≥ 40%</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">A</span></span><p>Routine MRA use is not recommended on dialysis — serious hyperkalaemia without clear benefit</p></li>
+</ul>
+<h3 class="grp">Before kidney transplantation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>History, examination and full review of previous records in every candidate, to stratify cardiac risk</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>Resting ECG and transthoracic echocardiography in every candidate</p></li>
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">B2</span></span><p>Individualized, multidisciplinary decisions on revascularization in asymptomatic candidates with established obstructive CAD</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Individualized cardiac evaluation for candidates with angina, established atherosclerosis, ventricular arrhythmia or valve disease</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B</span></span><p>Myocardial perfusion imaging or coronary CT angiography in high-risk asymptomatic candidates</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Coronary calcium from previous chest CT scans, when available, to sharpen risk stratification</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>Periodic re-screening on the waiting list when symptoms, earlier abnormalities or new findings appear</p></li>
+<li class="rec" data-cls="III"><span class="tags"><span class="cls c-III">III</span><span class="lvl">C</span></span><p>Routine pre-operative CAD screening is not recommended in candidates with a low probability of obstructive disease — it delays listing without benefit</p></li>
+</ul>
+<h3 class="grp">After kidney transplantation</h3>
+<ul class="recs">
+<li class="rec" data-cls="I"><span class="tags"><span class="cls c-I">I</span><span class="lvl">C</span></span><p>A systolic blood pressure target of 120–129 mmHg in transplant recipients</p></li>
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">B2</span></span><p>Calcium channel blockers to reach the target and reduce graft loss</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>SGLT2 inhibitors may be considered in recipients with pre- or post-transplant diabetes</p></li>
+<li class="rec" data-cls="IIb"><span class="tags"><span class="cls c-IIb">IIb</span><span class="lvl">C</span></span><p>GLP-1 receptor agonists may be considered in recipients with pre- or post-transplant diabetes</p></li>
+</ul>
+<h3 class="grp">Shared care</h3>
+<ul class="recs">
+<li class="rec" data-cls="IIa"><span class="tags"><span class="cls c-IIa">IIa</span><span class="lvl">C</span></span><p>Bring nephrology team members into cardiovascular multidisciplinary care for patients with eGFR &lt; 30 mL/min/1.73 m² or on kidney replacement therapy</p></li>
+</ul>
+</section>
+
+<section id="ckd-key-messages">
+<h2 class="sec"><em>Section 16</em>Key messages — STAMP on CKD</h2>
+<p class="lead">The guideline packages itself into an acronym: Screen, Triage and stage, Address risk, Modify cardiovascular management, Plan services.</p>
+<div class="panel"><h4>Screen</h4><ul>
+<li>Measure eGFR and albuminuria in every patient with cardiovascular disease — and look for cardiovascular disease in every patient with CKD.</li>
+<li>Stage with eGFR plus a spot uACR, and confirm chronicity.</li>
+<li>Re-test at least annually in diabetes, CKD and cardiovascular disease.</li></ul></div>
+<div class="panel"><h4>Triage and stage</h4><ul>
+<li>Use the Kidney Failure Risk Equation in categories G3–5 to time nephrology referral.</li>
+<li>Prefer cardiovascular risk scores that include eGFR and albuminuria.</li></ul></div>
+<div class="panel"><h4>Address risk</h4><ul>
+<li>Intensive statin therapy, with or without ezetimibe, for CKD not on dialysis whatever the lipid level.</li>
+<li>An ACE inhibitor or ARB plus an SGLT2 inhibitor for most patients with CKD.</li>
+<li>Finerenone and semaglutide add further protection in type 2 diabetes with albuminuria.</li>
+<li>SGLT2 inhibitors can be started at eGFR ≥ 20 and continued below it until kidney replacement therapy begins.</li></ul></div>
+<div class="panel"><h4>Modify cardiovascular management</h4><ul>
+<li>Foundational HF therapy works as well in CKD; high absolute risk means large absolute benefit.</li>
+<li>In coronary disease, start conservative, individualize revascularization, and shorten DAPT to limit bleeding.</li>
+<li>In AF, existing stroke and bleeding scores fail below eGFR 30; DOACs beat vitamin K antagonists above it.</li>
+<li>Permanent harm from contrast-associated AKI is rare — do not withhold or delay necessary imaging.</li></ul></div>
+<div class="panel"><h4>Plan services</h4><ul>
+<li>Communication and patient education about CKD are part of the treatment.</li>
+<li>Every clinician shares responsibility for slowing CKD and cutting cardiovascular risk.</li></ul></div>
+</section>
+
+
+<div class="part" id="part-mi" data-spy="mi-whats-new">
+  <p class="eyebrow">Part 3</p>
+  <h2>Fifth Universal Definition of Myocardial Infarction</h2>
+  <p class="src">2026 ESC/ACC/AHA/WHF Task Force · European Heart Journal 2026 · doi:10.1093/eurheartj/ehag101</p>
+  <div class="hl">
+    <div><b>Types 1–5 are retired</b><span>Primary, secondary, procedure-related.</span></div>
+    <div><b>Sex-specific troponin limits</b><span>Now define myocardial injury.</span></div>
+    <div><b>No troponin multiple after procedures</b><span>Imaging confirms the diagnosis instead.</span></div>
+    <div><b>MINOCA means injury</b><span>A working diagnosis, not a final one.</span></div>
+  </div>
+</div>
+
+<section id="mi-whats-new"><h2 class="sec"><em>Section 4</em>What changed from the Fourth definition</h2><p class="lead">The numbered types are gone. Myocardial infarction is now named by the setting it arises in, and each name carries its own diagnostic criteria.</p>
+<table>
+<tr><th>Fourth definition</th><th>Fifth definition</th><th>Why</th></tr>
+<tr><td class="n">Types 1, 2, 3, 4a, 4b, 4c, 5</td><td>Primary, secondary, or procedure-related</td><td>Names the mechanism, so the label means something at the bedside</td></tr>
+<tr><td class="n">Type 1 — atherothrombosis only</td><td><b>Primary</b> — every acute coronary pathology: atherothrombosis, spontaneous dissection, embolism, vasospasm, and restenosis, stent thrombosis or graft failure beyond 30 days</td><td>Prioritizes sensitivity; late stent or graft failure is de novo disease, not a procedural complication</td></tr>
+<tr><td class="n">Type 2 — supply–demand imbalance</td><td><b>Secondary</b> — imbalance from another acute condition, confirmed by obstructive CAD without acute coronary pathology and/or a new regional wall motion abnormality or loss of viability</td><td>Prioritizes specificity, separating infarction from acute injury</td></tr>
+<tr><td class="n">Type 3 — death before testing</td><td>Term removed; classify by setting or post-mortem findings</td><td>Little practical use</td></tr>
+<tr><td class="n">Types 4a, 4b, 4c and 5 with troponin multiples</td><td><b>Procedure-related</b> — a coronary complication within 30 days of any cardiac procedure, with the same criteria for percutaneous and surgical work</td><td>Troponin multiples were arbitrary; imaging criteria make the diagnosis meaningful and comparable</td></tr>
+</table>
+<h4 class="sub">Also new</h4>
+<div class="panel"><ul>
+<li>Acute and chronic myocardial injury criteria refined, with <b>sex-specific 99th percentile</b> upper reference limits, to stop under-recognition in women.</li>
+<li>MINOCA is redefined as myocardial <b>injury</b> with non-obstructive coronary arteries — a working diagnosis, not a final one.</li>
+<li>Objective criteria for silent or unrecognized infarction, and guidance after sudden death.</li>
+<li>Accelerated high-sensitivity troponin pathways, and guidance for the settings where troponin is hardest to read.</li>
+<li>Separate guidance for low-resource settings without biomarkers or imaging.</li>
+<li>ICD-11 codes that map onto the new classification, down to the coronary mechanism.</li>
+</ul></div>
+</section>
+<section id="mi-injury"><h2 class="sec"><em>Section 6</em>Myocardial injury: acute and chronic</h2><p class="lead">Injury is not infarction. Troponin above the 99th percentile only says myocytes released protein; the clinical context says why.</p>
+<div class="two">
+<div class="criteria"><h4>Acute myocardial injury</h4>
+<p style="margin:0">A rise and/or fall in cardiac troponin I or T with at least one value above the <b>sex-specific 99th percentile</b> upper reference limit.</p></div>
+<div class="criteria"><h4>Chronic myocardial injury</h4>
+<p style="margin:0">Two or more troponin values above the sex-specific 99th percentile when testing is done in a stable clinical setting. Confirmed when a cardiac or non-cardiac condition causing remodelling is identified; excluded when the rise is explained by analytical interference or reduced clearance.</p></div>
+</div>
+<h4 class="sub">Mechanisms of acute injury other than infarction</h4>
+<table>
+<tr><th>Mechanism</th><th>Examples</th></tr>
+<tr><td class="n">Ischaemia</td><td>Myocardial infarction</td></tr>
+<tr><td class="n">Inflammation</td><td>Myocarditis (autoimmune, infectious, toxic), transplant rejection, cytokine-mediated injury in sepsis</td></tr>
+<tr><td class="n">Haemodynamic stress</td><td>Supply–demand imbalance, tachy- or brady-arrhythmia, acute heart failure, pulmonary embolism, malignant hypertension</td></tr>
+<tr><td class="n">Physiological stress</td><td>Strenuous exercise</td></tr>
+<tr><td class="n">Catecholamine stress</td><td>Takotsubo syndrome, subarachnoid haemorrhage, stroke, seizures, phaeochromocytoma</td></tr>
+<tr><td class="n">Toxicity</td><td>Anthracyclines, ErbB-targeted therapy, tyrosine kinase inhibitors, immune checkpoint inhibitors, radiation</td></tr>
+<tr><td class="n">Trauma</td><td>Cardioversion, percutaneous coronary or structural intervention, ablation or device implantation, cardiac surgery, cardiac contusion</td></tr>
+</table>
+<div class="note">Troponin rises chronically through three routes: more release from the myocardium, less clearance from the circulation, or analytical interference mimicking either. Halving the eGFR raises the concentration — but a raised troponin in kidney disease is never dismissed as clearance alone.</div>
+</section>
+<section id="mi-primary"><h2 class="sec"><em>Section 7.2.1</em>Primary myocardial infarction</h2><p class="lead">Spontaneous onset, no other acute condition and no recent procedure to explain it. The criteria favour sensitivity — miss nothing coronary.</p>
+<div class="criteria"><h4>Diagnostic criteria</h4>
+<p><b>Likely</b> — acute myocardial injury on troponin plus one or more of:</p>
+<ul><li>Symptoms consistent with acute myocardial ischaemia</li>
+<li>New or presumed new ischaemic ECG changes</li>
+<li>Development of pathological Q waves</li></ul>
+<p><b>Confirmed</b> — one or more additional imaging features:</p>
+<ul><li>An acute coronary pathology: atherothrombosis, spontaneous coronary artery dissection, vasospasm or embolism; or restenosis, stent thrombosis or graft failure more than 30 days after revascularization</li>
+<li>A new or presumed new regional wall motion abnormality and/or absence of viable myocardium in an ischaemic pattern</li></ul>
+</div>
+<div class="note">Where angiography and cardiac imaging are unavailable or inappropriate, the final diagnosis can still be made on biomarkers, ECG and clinical criteria — coded as unknown aetiology. Suspect dissection particularly in women under 50, in pregnancy and post-partum.</div>
+</section>
+<section id="mi-secondary"><h2 class="sec"><em>Section 7.2.2</em>Secondary myocardial infarction</h2><p class="lead">Ischaemia driven by another acute illness through oxygen supply–demand imbalance. Here the criteria favour specificity — call it infarction only when the label changes treatment.</p>
+<div class="criteria"><h4>Diagnostic criteria</h4>
+<p><b>Considered</b> — acute myocardial injury with an alternative acute condition causing supply–demand mismatch, plus one or more of: ischaemic symptoms, new or presumed new ischaemic ECG changes, or pathological Q waves.</p>
+<p><b>Likely</b> — with known coronary artery disease, or strong clinical suspicion from the extent of ischaemia on ECG or the size of the troponin rise.</p>
+<p><b>Confirmed</b> — when imaging is feasible and appropriate, by one or more of:</p>
+<ul><li>Obstructive coronary artery disease — ≥ 70% epicardial stenosis on angiography, or ≥ 50% that is flow-limiting on physiological assessment — without acute coronary pathology</li>
+<li>A new or presumed new regional wall motion abnormality or absence of viable myocardium in an ischaemic pattern</li></ul>
+</div>
+<div class="note">Demand rises with tachycardia and severe hypertension; supply falls with hypotension, hypoxia and anaemia — tachyarrhythmia is the commonest trigger and triggers often coexist. Most patients in this setting have neither obstructive disease nor new loss of viability, so the diagnosis is excluded rather than assumed. Sepsis and bleeding can also rupture plaque, so primary infarction stays on the differential.</div>
+</section>
+<section id="mi-procedure"><h2 class="sec"><em>Section 7.2.3</em>Procedure-related myocardial infarction</h2><p class="lead">A coronary complication of any cardiac procedure — percutaneous or surgical — within 30 days. No troponin multiple defines it; imaging does.</p>
+<div class="criteria"><h4>Diagnostic criteria</h4>
+<p><b>Considered</b> — suspected coronary complication within 30 days of a cardiac procedure, with acute myocardial injury plus one or more of: ischaemic symptoms, new or presumed new ischaemic ECG changes, pathological Q waves, or unexplained sudden deterioration under sedation.</p>
+<p><b>Likely</b> immediately after the procedure when biomarkers have risen from the pre-procedural value and keep rising — as a guide, above 5 times the upper reference limit at 6 hours after intervention, or above 35 times at 24 hours after surgery.</p>
+<p><b>Confirmed</b> by one or more additional features — and by <b>both</b> when the complication arises during the procedure itself or the procedure was performed for an acute infarction:</p>
+<ul><li>Angiographic evidence of a complication: side branch occlusion, iatrogenic dissection, no or slow flow, recoil or early restenosis, stent thrombosis, graft failure, coronary impingement, embolism, or ostial occlusion during valve intervention</li>
+<li>Cardiac imaging showing a new or presumed new regional wall motion abnormality or absence of viable myocardium in the territory of the artery involved</li></ul>
+</div>
+<div class="note">Some degree of acute injury is universal after these procedures, and its size depends on how long and how complex the case was — which is exactly why a single troponin threshold cannot work and imaging is required. ECG changes after cardiac surgery are common from pericarditis, pneumopericardium and electrolyte shifts, and Q waves can be transient.</div>
+</section>
+<section id="mi-other"><h2 class="sec"><em>Section 8–11</em>Sudden death, silent infarction, unstable angina and MINOCA</h2><p class="lead">Four situations that sit around the definition rather than inside it.</p>
+<div class="panel"><h4>Death before the diagnosis is made</h4>
+<p style="margin:0">The old type 3 label is retired. Where infarction is the likely cause of death, apply the clinical classification from the setting or from post-mortem findings. Autopsy showing atherothrombosis, embolism, dissection, or stent or graft thrombosis beyond 30 days with necrosis in that artery's territory confirms primary infarction; an alternative acute condition raising demand or cutting supply points to secondary infarction; an acute coronary or graft occlusion within 30 days of a procedure confirms procedure-related infarction.</p></div>
+<div class="panel"><h4>Silent or unrecognized infarction</h4>
+<p style="margin:0">Pathological Q waves on a routine ECG are not specific — confirm with imaging, preferably CMR with late gadolinium enhancement. About 1 in 5 people over 70 have unrecognized infarction on systematic CMR, and 3% of asymptomatic middle-aged adults. Many patients recall symptoms in retrospect, so "silent" can mislead. The finding matters: it carries an adverse prognosis and may change treatment.</p></div>
+<div class="panel"><h4>Unstable angina</h4>
+<p style="margin:0">Still part of the acute coronary syndrome spectrum. Consider it when new rest or minimal-exertion angina, or a sudden intensification in chronic coronary syndrome, occurs and serial troponin excludes infarction. It has become less common as high-sensitivity assays reclassify many of these patients as infarction. Chronic troponin elevation is common in these patients and carries a worse prognosis.</p></div>
+<div class="panel"><h4>MINOCA — myocardial <i>injury</i> with non-obstructive coronary arteries</h4>
+<p style="margin:0">A working diagnosis when a possible infarction turns out to have no stenosis ≥ 50% at angiography. The word changed from infarction to injury because most of these patients are eventually found to have myocarditis, Takotsubo syndrome, cardiomyopathy or a non-cardiac cause. Intravascular imaging can still reveal plaque erosion or rupture, mural thrombus or dissection, and functional testing can reveal spasm or microvascular dysfunction. CMR is best performed within 2 weeks; infarction is the final diagnosis in roughly a quarter of cases.</p></div>
+</section>
+<section id="mi-ecg"><h2 class="sec"><em>Section 13</em>The electrocardiogram</h2><p class="lead">ST elevation is only the loudest of several patterns of acute coronary occlusion — up to one in four NSTEMI patients has an occluded culprit artery.</p>
+<h4 class="sub">ST elevation thresholds for a working diagnosis of STEMI</h4>
+<table>
+<tr><th>Leads</th><th>New ST elevation at the J-point in two contiguous leads</th></tr>
+<tr><td class="n">V2–V3</td><td>≥ 2.5 mm in men under 40 · ≥ 2 mm in men 40 and over · ≥ 1.5 mm in women at any age</td></tr>
+<tr><td class="n">All other leads</td><td>≥ 1 mm</td></tr>
+</table>
+<p style="color:var(--muted);font-size:.92rem">Thresholds apply in the absence of bundle branch block or left ventricular hypertrophy. Posterior infarction: ST depression ≥ 1 mm in V1–V3, especially with a dominant R wave, confirmed by ST elevation in V7–V9. Right ventricular infarction: ST elevation in V3R–V6R, particularly with elevation in aVR.</p>
+<h4 class="sub">Other findings of ischaemia or infarction</h4>
+<table>
+<tr><th>Finding</th><th>Description</th></tr>
+<tr><td class="n">ST depression</td><td>New horizontal or downsloping depression ≥ 0.5 mm at the J-point in two or more contiguous leads</td></tr>
+<tr><td class="n">Hyperacute T waves</td><td>Symmetrical, broad T waves disproportionately large for the preceding QRS in two contiguous leads</td></tr>
+<tr><td class="n">de Winter pattern</td><td>Tall symmetrical T waves with upsloping ST depression in the precordial leads</td></tr>
+<tr><td class="n">Biphasic T waves</td><td>An initial positive deflection followed by a negative one</td></tr>
+<tr><td class="n">T-wave inversion</td><td>New or dynamic inversion ≥ 1 mm in two contiguous leads</td></tr>
+<tr><td class="n">Wellens syndrome</td><td>Biphasic or deeply inverted T waves in V2 and V3, seen during pain-free intervals</td></tr>
+<tr><td class="n">Pathological Q waves</td><td>Duration ≥ 40 ms and/or depth ≥ 25% of the R wave in two contiguous leads</td></tr>
+<tr><td class="n">Sgarbossa criteria</td><td>With LBBB or ventricular pacing: concordant ST elevation ≥ 1 mm; ST depression ≥ 1 mm in V1–V3; or discordant ST elevation ≥ 5 mm. The modified rule replaces the 5 mm with an ST/S ratio ≤ −0.25</td></tr>
+<tr><td class="n">Ventricular arrhythmia</td><td>Ventricular fibrillation or ventricular tachycardia</td></tr>
+</table>
+<div class="note">Further occlusion patterns worth knowing: the Aslanger pattern (isolated ST elevation in III with depression in V4–V6 and a positive T wave) and the South African flag sign (elevation in I, aVL and V2 with depression in III). Remember that ST elevation is regional with reciprocal change in coronary occlusion, but diffuse and without reciprocal change in pericarditis or early repolarization.</div>
+</section>
+<section id="mi-troponin"><h2 class="sec"><em>Section 14</em>Cardiac troponin</h2><p class="lead">The assay defines injury; the clinician defines infarction. Timing, baseline value and sex all change how a number should be read.</p>
+<div class="criteria"><h4>Interpreting troponin in possible infarction</h4>
+<ul>
+<li>Read it with the history, examination and 12-lead ECG — never alone.</li>
+<li>Very early after symptom onset the rise may be undetectable even on a high-sensitivity assay: serial testing is necessary.</li>
+<li>With recurrent or persistent ischaemic symptoms, repeat before excluding infarction.</li>
+<li>In unselected patients tested without an indication, elevation is common in sepsis, kidney disease and stroke.</li>
+<li>The 99th percentile is lower in women; sex-specific thresholds prevent under-diagnosis.</li>
+<li>Age matters — both the prevalence of infarction and the prevalence of persistently raised values climb with it.</li>
+<li>When a value is raised and infarction is not confirmed, serial measurement separates acute from chronic injury.</li>
+<li>Suspect analytical interference when the value does not fit the clinical picture, or varies with no pattern on serial testing.</li>
+</ul></div>
+<h4 class="sub">Why timing changes the delta</h4>
+<div class="panel"><ul>
+<li>Within 3 hours of onset the absolute change is small; between 3 and 12 hours it is substantial.</li>
+<li>Sampled at the 12–24 hour peak, serial values may barely move.</li>
+<li>Presenting days later, the pattern can mimic chronic injury — and troponin can take weeks to normalize after infarction.</li>
+<li>Fixed 1- or 2-hour intervals make delta criteria reliable; absolute deltas are assay-specific and cannot be carried between assays.</li>
+<li>Near the 99th percentile use absolute deltas; with clearly high baselines relative change is more intuitive. At very high values a rise and fall may not need to be shown at all.</li>
+</ul></div>
+<div class="note">Accelerated pathways come in three shapes: single-sample rule-out, 0/1- or 0/2-hour serial testing with delta thresholds, and conventional 0/3-hour testing with a risk score. Their thresholds are for triage and often uniform rather than sex-specific — they do not define myocardial injury or confirm the final diagnosis. If a high-sensitivity assay is unavailable, a conventional troponin assay beats CK-MB; CK-MB by mass assay is the last resort.</div>
+</section>
+<section id="mi-imaging"><h2 class="sec"><em>Section 15</em>Coronary and cardiac imaging</h2><p class="lead">The diagnosis can be likely without imaging. Confirming it, and naming the mechanism, usually cannot be.</p>
+<div class="two">
+<div class="panel"><h4>Invasive</h4><ul>
+<li>Coronary angiography is the reference test and identifies the acute coronary pathology in primary infarction.</li>
+<li>Intravascular imaging (OCT, IVUS) shows plaque rupture or erosion, mural thrombus, intramural haematoma of dissection, in-stent restenosis or thrombosis, and intimal bumping of spasm — about 14% of NSTEMI presentations have no clear culprit on angiography alone.</li>
+<li>Provocation testing (acetylcholine, ergonovine) exposes epicardial or microvascular spasm; FFR, RFR or iFR grade whether a stenosis is functionally significant in suspected secondary infarction.</li>
+</ul></div>
+<div class="panel"><h4>Non-invasive</h4><ul>
+<li>Echocardiography, CMR, cardiac CT, SPECT and PET all contribute; CMR is the modality of choice when coronary arteries are non-obstructive.</li>
+<li>CMR distinguishes infarction from myocarditis, Takotsubo syndrome and cardiomyopathy, and stages injury from oedema alone through necrosis, microvascular obstruction and haemorrhage.</li>
+<li>CT coronary angiography is a useful alternative in lower-risk patients, in possible secondary infarction, or when revascularization is unlikely.</li>
+</ul></div>
+</div>
+<div class="note">Historically, patients with supply–demand ischaemia rarely reached the catheter laboratory — and in a prospective study that imaged them systematically, 1 in 20 turned out to have primary infarction due to atherothrombosis.</div>
+</section>
+<section id="mi-special"><h2 class="sec"><em>Section 16</em>Situations where the diagnosis is hardest</h2><p class="lead">Recurrent events, heart failure, kidney disease, critical illness, surgery, structural intervention and cancer therapy — each distorts one of the diagnostic inputs.</p>
+<div class="two">
+<div class="panel"><h4>Recurrent infarction</h4><p style="margin:0">Within the first month, ECG, biomarkers and imaging may all still be abnormal from the index event. Troponin stays elevated for weeks, so a <i>rising</i> value is the signal. Angiography is often needed, and CMR can show whether there is more than one culprit. Classify by mechanism; there is no separate recurrence code.</p></div>
+<div class="panel"><h4>Heart failure</h4><p style="margin:0">Up to 90% of acute heart failure patients have troponin T above the reference limit. Measure troponin and record an ECG on admission, use serial values to separate acute from chronic injury, and compare imaging with previous studies since wall motion abnormalities are already common.</p></div>
+<div class="panel"><h4>Chronic kidney disease</h4><p style="margin:0">Troponin is raised in 70% of CKD patients with possible infarction (troponin T) versus 24% without. Half of raised values are injury without infarction — but half are not, so never blame clearance alone. The diagnostic pathway is unchanged; imaging matters more, and contrast risk is usually overstated relative to the benefit.</p></div>
+<div class="panel"><h4>Critical illness</h4><p style="margin:0">Infarction is among the most frequently missed diagnoses at post-mortem in the ICU. Sedation hides symptoms, ST elevation is common and less specific, and around 40% have injury with ischaemic ECG changes. The rise-and-fall pattern is the key discriminator, with cardiology input and angiography when the answer would change management.</p></div>
+<div class="panel"><h4>Non-cardiac surgery</h4><p style="margin:0">Most events occur within 2 days and up to two-thirds have no ischaemic symptoms. Peri-operative injury appears in about 1 in 8 high-risk operations; 1 in 20 of those is primary infarction. If troponin will be measured after surgery, a pre-operative value is essential — up to 40% of patients with cardiovascular disease start with a raised baseline.</p></div>
+<div class="panel"><h4>Structural intervention and cardio-oncology</h4><p style="margin:0">After TAVI, injury occurs in 66–100% of patients, so biomarkers alone cannot define an infarction — leaflet-related ostial obstruction (0.7%) and device embolism (1%) are the mechanisms to look for. In cancer therapy, anthracyclines and checkpoint inhibitors raise troponin through myocarditis and cardiotoxicity, while vasospasm and embolism are more common than in the general population.</p></div>
+</div>
+</section>
+<section id="mi-coding"><h2 class="sec"><em>Section 18–19</em>Coding, and diagnosis without technology</h2><p class="lead">The classification only changes practice if it is recorded — and if it can still be applied where troponin and imaging do not exist.</p>
+<h4 class="sub">ICD-11 codes</h4>
+<table>
+<tr><th>Diagnosis</th><th>Code</th></tr>
+<tr><td>ST-elevation myocardial infarction</td><td class="n">BA41.0</td></tr>
+<tr><td>Non-ST-elevation myocardial infarction</td><td class="n">BA41.1</td></tr>
+<tr><td>Primary — by mechanism</td><td class="n">_1 atherothrombosis · _2 dissection · _3 embolism · _4 vasospasm · _5 restenosis &gt; 30 days · _6 stent thrombosis &gt; 30 days · _7 graft failure &gt; 30 days · _8 undetermined · _9 unknown (no coronary imaging)</td></tr>
+<tr><td>Secondary</td><td class="n">_A, plus the code for the alternative acute condition</td></tr>
+<tr><td>Procedure-related</td><td class="n">_B percutaneous within 30 days · _C open surgical within 30 days</td></tr>
+<tr><td>Unstable angina</td><td class="n">BA40</td></tr>
+<tr><td>Unspecified myocardial infarction</td><td class="n">BA41.Z</td></tr>
+<tr><td>Unrecognized myocardial infarction</td><td class="n">BA50</td></tr>
+</table>
+<div class="criteria"><h4>Low-resource settings, without biomarkers or cardiac imaging</h4>
+<p style="margin:0">The diagnosis is presumed in a patient with symptoms consistent with acute myocardial ischaemia plus one or more of: new ischaemic ECG changes, or development of pathological Q waves.</p></div>
+<div class="note">This matters at scale: in one Ugandan study only 43% of facilities had troponin testing and 55% had electrocardiography, and even where tests exist, out-of-pocket cost limits access. The Task Force's position is that basic diagnostic equipment for acute infarction should be available in every urgent and emergency care facility.</div>
+</section>
+
+<section id="abbreviations">
+<h2 class="sec"><em>Reference</em>Abbreviations used here</h2>
+<div class="two">
+<div class="panel"><ul>
+<li><b>ACE-I</b> angiotensin-converting enzyme inhibitor</li>
+<li><b>AMT</b> additional medical therapy</li>
+<li><b>ARB</b> angiotensin receptor blocker</li>
+<li><b>ARNI</b> angiotensin receptor–neprilysin inhibitor</li>
+<li><b>ATTR / AL</b> transthyretin / light chain amyloidosis</li>
+<li><b>CRT</b> cardiac resynchronization therapy</li>
+<li><b>DHF</b> decompensated heart failure</li>
+<li><b>FMT</b> foundational medical therapy</li>
+<li><b>GDIT</b> guideline-directed interventional therapy</li>
+</ul></div>
+<div class="panel"><ul>
+<li><b>HFH</b> heart failure hospitalization</li>
+<li><b>ICD</b> implantable cardioverter-defibrillator</li>
+<li><b>LVAD</b> left ventricular assist device</li>
+<li><b>MCS</b> mechanical circulatory support</li>
+<li><b>MRA</b> mineralocorticoid receptor antagonist</li>
+<li><b>SGLT2-I</b> sodium–glucose co-transporter 2 inhibitor</li>
+<li><b>TEER</b> transcatheter edge-to-edge repair</li>
+<li><b>TTR</b> transthyretin</li>
+<li><b>GLP-1 RA</b> glucagon-like peptide-1 receptor agonist</li>
+</ul></div>
+<div class="panel"><ul>
+<li><b>uACR</b> urine albumin-to-creatinine ratio</li>
+<li><b>eGFR</b> estimated glomerular filtration rate</li>
+<li><b>KRT</b> kidney replacement therapy</li>
+<li><b>KFRE</b> Kidney Failure Risk Equation</li>
+<li><b>CI-AKI</b> contrast-associated acute kidney injury</li>
+<li><b>DAPT</b> dual antiplatelet therapy</li>
+<li><b>DOAC / VKA</b> direct oral anticoagulant / vitamin K antagonist</li>
+<li><b>ASCVD</b> atherosclerotic cardiovascular disease</li>
+<li><b>CCS / ACS</b> chronic / acute coronary syndrome</li>
+</ul></div>
+<div class="panel"><ul>
+<li><b>UDMI</b> universal definition of myocardial infarction</li>
+<li><b>URL</b> upper reference limit (99th percentile)</li>
+<li><b>SCAD</b> spontaneous coronary artery dissection</li>
+<li><b>MINOCA</b> myocardial injury with non-obstructive coronary arteries</li>
+<li><b>MINS</b> myocardial injury after non-cardiac surgery</li>
+<li><b>OCT / IVUS</b> optical coherence tomography / intravascular ultrasound</li>
+<li><b>CMR / LGE</b> cardiac magnetic resonance / late gadolinium enhancement</li>
+<li><b>CCTA</b> CT coronary angiography</li>
+<li><b>TAVI / M-TEER</b> transcatheter aortic valve implantation / mitral edge-to-edge repair</li>
+</ul></div></div>
+</section>
+
+</main>
+
+<footer>
+  <img src="data:image/png;base64,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" alt="Onskore Academy">
+  <div class="fnote">
+  <p><b>Onskore Academy</b> — educational summary prepared for MRCP and cardiology revision. It condenses and paraphrases the source documents; it is not the guidelines themselves and is not a substitute for them.</p>
+  <p>Sources: 2026 ESC Guidelines for the management of heart failure, <i>European Heart Journal</i> 2026, doi:10.1093/eurheartj/ehag100 — and 2026 ESC Guidelines for the management of cardiovascular disease and chronic kidney disease, in collaboration with the European Renal Association, <i>European Heart Journal</i> 2026, doi:10.1093/eurheartj/ehag098 — and the Fifth Universal Definition of Myocardial Infarction (2026), ESC/ACC/AHA/WHF Task Force, <i>European Heart Journal</i> 2026, doi:10.1093/eurheartj/ehag101. Copyright of the original text and tables remains with the European Society of Cardiology and the joint societies. Read the full documents before acting on any recommendation, and check for later updates.</p>
+  </div>
+</footer>
+</div>
+
+<script>
+(function(){
+  var recs = Array.prototype.slice.call(document.querySelectorAll('li.rec'));
+  var buttons = Array.prototype.slice.call(document.querySelectorAll('.filters button'));
+  var q = document.getElementById('q'), count = document.getElementById('count');
+  var active = 'all';
+  function apply(){
+    var term = q.value.trim().toLowerCase(), shown = 0;
+    recs.forEach(function(r){
+      var okClass = (active === 'all') || (r.dataset.cls === active);
+      var okText = !term || r.textContent.toLowerCase().indexOf(term) > -1;
+      var show = okClass && okText;
+      r.classList.toggle('hide', !show);
+      if (show) shown++;
+    });
+    document.querySelectorAll('section').forEach(function(s){
+      var list = s.querySelectorAll('li.rec');
+      if (!list.length) return;
+      var any = s.querySelectorAll('li.rec:not(.hide)').length;
+      s.style.opacity = any ? '' : '.45';
+    });
+    if (shown === 0) {
+      count.textContent = 'No graded recommendations match — Part 3 sets diagnostic criteria rather than graded recommendations, so it is not searched here.';
+    } else {
+      count.textContent = shown + ' of ' + recs.length + ' recommendations';
+    }
+  }
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){
+      active = b.dataset.f;
+      buttons.forEach(function(x){ x.setAttribute('aria-pressed', String(x === b)); });
+      apply();
+    });
+  });
+  q.addEventListener('input', apply);
+  apply();
+
+  var nav = document.getElementById('nav');
+  var toggle = nav.querySelector('.menu-toggle');
+  var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section, main .part'));
+
+  toggle.addEventListener('click', function(){
+    var open = nav.dataset.open !== 'true';
+    nav.dataset.open = String(open);
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  links.forEach(function(a){
+    a.addEventListener('click', function(){
+      nav.dataset.open = 'false';
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  function spy(){
+    var mobile = window.matchMedia('(max-width:900px)').matches;
+    var line = mobile ? 200 : 130;
+    var current = sections[0];
+    sections.forEach(function(s){
+      if (s.getBoundingClientRect().top <= line) current = s;
+    });
+    var id = '#' + (current.dataset.spy || current.id);
+    links.forEach(function(a){ a.classList.toggle('on', a.getAttribute('href') === id); });
+    var label = nav.querySelector('a.on span:last-child');
+    if (label && mobile) {
+      toggle.textContent = label.textContent;
+    }
+    ticking = false;
+  }
+  var ticking = false;
+  window.addEventListener('scroll', function(){
+    if (!ticking) { ticking = true; requestAnimationFrame(spy); }
+  }, { passive: true });
+  window.addEventListener('resize', spy);
+  window.addEventListener('hashchange', function(){ setTimeout(spy, 60); });
+  window.addEventListener('load', function(){ [80,300,700].forEach(function(t){ setTimeout(spy, t); }); });
+  spy();
+})();
+</script>
+</body>
+</html>
